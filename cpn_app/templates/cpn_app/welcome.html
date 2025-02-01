@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Welcome Page"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href={% static "css/style.css" %}>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src={% static "js/script.js" %}></script>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            background-color: #2e2e2e; 
+            color: white;
+            text-align: center;
+        }
+        .welcome-container {
+            margin-top: 50px;
+        }
+        .welcome-image {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .btn-custom {
+            border: 2px solid #00bcd4;
+            color: #00bcd4;
+            background-color: transparent;
+            padding: 15px 40px;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .btn-custom:hover {
+            background-color: #00bcd4;
+            color: white;
+        }
+        .btn-enter {
+            border: 2px solid #ff9800;
+            color: #ff9800;
+            background-color: transparent;
+            padding: 15px 40px;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .btn-enter:hover {
+            background-color: #ff9800;
+            color: white;
+        }
+        .welcome-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .welcome-description {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container welcome-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <img src="{% static 'images/o.webp' %}" alt="Welcome Image" class="welcome-image">
+                <h1 class="welcome-title">Welcome to Our Website!</h1>
+                <p class="welcome-description">Easily generate Ocel files from your CPN models and streamline your workflow.</p>
+                
+                <div class="d-flex justify-content-center">
+                    <a href="{% url 'cpn_app:login' %}" class="btn btn-custom">Login</a>
+                    <a href="{% url 'cpn_app:register' %}" class="btn btn-custom">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

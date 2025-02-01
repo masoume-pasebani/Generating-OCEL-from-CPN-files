@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPN Nets Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Colored Petri Net (CPN) Nets Visualization</h1>
+        <p>The visualization below represents the nets in the uploaded CPN file.</p>
+        <img src="{{ image_url }}" alt="CPN Nets Visualization">
+        <p><a href="/">Upload another file</a></p>
+    </div>
+</body>
+</html>

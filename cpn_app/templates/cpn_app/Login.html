@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href={% static "css/style.css" %}>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src={% static "js/script.js" %}></script>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #2e2e2e; 
+            color: white;
+        }
+        .form-control {
+            background-color: #333; 
+            border: none;
+            border-bottom: 2px solid #00bcd4;
+            color: white; 
+        }
+        .form-control:focus {
+            background-color: #ffffff;
+            border-color: #00bcd4; 
+            box-shadow: none;
+        }
+        .alert {
+            background-color: #00bcd4; 
+            color: white;
+        }
+        .login-box {
+            margin-top: 100px;
+            padding: 20px;
+            background-color:rgb(79, 79, 79); 
+            border-radius: 8px;
+        }
+        .login-key {
+            font-size: 50px;
+            color: #00bcd4;
+        }
+        .login-title {
+            font-size: 24px;
+            margin-top: 10px;
+            color: #00bcd4;
+        }
+        .btn-outline-primary {
+            border: 2px solid #00bcd4;
+            color: #00bcd4;
+            background-color: transparent;
+        }
+        .btn-outline-primary:hover {
+            background-color: #00bcd4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        {% if messages %}
+            {% for message in messages %} 
+            <div class="alert {{message.tags}} m-1" role="alert">
+                {{message}}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </div>
+            {% endfor %} 
+        {% endif %}
+    </center>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-8 login-box">
+                <div class="col-lg-12 login-key">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-12 login-title">
+                    LOG IN
+                </div>
+                <p class="text-center">Don't have an Account? <a href="{% url 'cpn_app:register' %}" name='Register'>Register</a></p>
+                <div class="col-lg-12 login-form">
+                    <div class="col-lg-12 login-form">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Username" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" id="pwd1" placeholder="Password" required>
+                                <span id="toggle3" onclick="toggl3()">
+                                    <i class="fas fa-eye"></i>
+                                </span>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-outline-primary" type="submit">Login</button>
+                            </div>
+                            <br> 
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

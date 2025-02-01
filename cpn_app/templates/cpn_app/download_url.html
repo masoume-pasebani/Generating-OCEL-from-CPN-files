@@ -1,0 +1,18 @@
+<script>
+    function generateOCEL(fileId) {
+        fetch(`/generate_ocel/${fileId}/`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "success") {
+                    const downloadButton = document.createElement("a");
+                    downloadButton.href = data.download_url;
+                    downloadButton.innerText = "Download OCEL";
+                    downloadButton.download = "";  // Force download on click
+                    document.body.appendChild(downloadButton);
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+    }
+</script>

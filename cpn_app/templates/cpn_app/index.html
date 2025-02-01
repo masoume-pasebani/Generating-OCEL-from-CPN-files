@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ user.username }}'s Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Page Styles */
+        body {
+            background-color: #2e2e2e;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 30px;
+        }
+
+        h1, h2 {
+            font-weight: 600;
+        }
+
+        /* Welcome Message Styling */
+        .welcome-card {
+            color: white;
+            border-radius: 12px;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .welcome-card h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .welcome-card p {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #444444;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .btn-primary, .btn-secondary, .btn-info, .btn-danger {
+            padding: 12px 30px;
+            font-size: 14px;
+            border-radius: 30px;
+        }
+
+        .btn-primary {
+            background-color: #6a1b9a !important;
+            border-color: #6a1b9a !important;
+        }
+
+        .btn-secondary {
+            background-color: #8e24aa !important;
+            border-color: #8e24aa !important;
+        }
+
+        .btn-info {
+            background-color: #2196f3 !important;
+            border-color: #2196f3 !important;
+        }
+
+        .btn-danger {
+            background-color: rgb(82, 14, 12) !important;
+            border-color:rgb(237, 104, 102) !important;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .table {
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .table th, .table td {
+            color: white;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #555555;
+        }
+
+        .form-control {
+            background-color: #444444;
+            border: 1px solid #666666;
+            color: white;
+        }
+
+        .form-control:focus {
+            border-color: #6a1b9a;
+        }
+
+        /* Flexbox to prevent overflow or misalignment on smaller screens */
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-lg-8 {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        /* Styling the buttons to be responsive */
+        .btn {
+            width: 100%;
+        }
+
+        @media (max-width: 767px) {
+            /* Adjust card padding and text size on small screens */
+            .card-body {
+                padding: 15px;
+            }
+
+            .welcome-card h1 {
+                font-size: 1.5rem;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .table-responsive {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Welcome Section -->
+            <div class="col-lg-8">
+                <div class="welcome-card">
+                    <h1> {{ user.username }}'s Dashboard!</h1>
+                </div>
+            </div>
+
+            <!-- Logout Button -->
+            <div class="col-lg-8 text-end mb-4">
+                <a href="{% url 'cpn_app:logout' %}" class="btn btn-danger">Logout</a>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="col-lg-8">
+                <div class="card mb-5">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Upload a CPN File</h2>
+                        <form method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="id_file" class="form-label">Choose a CPN File</label>
+                                <input type="file" name="file" id="id_file" class="form-control" accept=".cpn" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-3">Upload File</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Uploaded Files Section -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-center">Your Uploaded Files</h2>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-dark mt-4">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>File Name</th>
+                                        <th>Uploaded At</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for file in uploaded_files %}
+                                    <tr>
+                                        <td>{{ forloop.counter }}</td>
+                                        <td>{{ file.file.name }}</td>
+                                        <td>{{ file.uploaded_at|date:"F j, Y, g:i a" }}</td>
+                                        <td>
+                                            <a href="{% url 'cpn_app:generate_ocel' file.id %}" class="btn btn-secondary btn-sm">Generate OCEL</a>
+                                            <a href="{% url 'cpn_app:visualize_cpn' file.id %}" class="btn btn-info btn-sm">Visualize CPN</a>
+                                        </td>
+                                    </tr>
+                                    {% empty %}
+                                    <tr>
+                                        <td colspan="4" class="text-center text-muted">No files uploaded yet.</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
