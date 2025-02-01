@@ -1,0 +1,194 @@
+{
+    "events": [
+        {
+            "event_id": "event_1",
+            "activity": "Send Grid\nCoordinates",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86158",
+                "ID86225"
+            ],
+            "vmap": {
+                "duration": 12
+            }
+        },
+        {
+            "event_id": "event_2",
+            "activity": "Receive\nResult",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86158",
+                "ID88846"
+            ],
+            "vmap": {
+                "duration": 13
+            }
+        },
+        {
+            "event_id": "event_3",
+            "activity": "Connect to\nPython Weather\nService",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID89496",
+                "ID89596"
+            ],
+            "vmap": {
+                "duration": 25
+            }
+        },
+        {
+            "event_id": "event_4",
+            "activity": "Connect to\nPython Weather\nService",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86144",
+                "ID89596"
+            ],
+            "vmap": {
+                "duration": 25
+            }
+        },
+        {
+            "event_id": "event_5",
+            "activity": "Send Grid\nCoordinates",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86144",
+                "ID86225"
+            ],
+            "vmap": {
+                "duration": 12
+            }
+        },
+        {
+            "event_id": "event_6",
+            "activity": "Receive\nResult",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID1428424713",
+                "ID88846"
+            ],
+            "vmap": {
+                "duration": 13
+            }
+        },
+        {
+            "event_id": "event_7",
+            "activity": "Send Grid\nCoordinates",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID1448501350",
+                "ID86225"
+            ],
+            "vmap": {
+                "duration": 12
+            }
+        },
+        {
+            "event_id": "event_8",
+            "activity": "Turn On\nCooling",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID1428424713",
+                "ID1448506778"
+            ],
+            "vmap": {
+                "duration": 10
+            }
+        },
+        {
+            "event_id": "event_9",
+            "activity": "Turn On\nHeating",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID1428424713",
+                "ID1448507541"
+            ],
+            "vmap": {
+                "duration": 6
+            }
+        },
+        {
+            "event_id": "event_10",
+            "activity": "Turn On\nHeating",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86144",
+                "ID1448507541"
+            ],
+            "vmap": {
+                "duration": 6
+            }
+        },
+        {
+            "event_id": "event_11",
+            "activity": "Turn On\nCooling",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86144",
+                "ID1448506778"
+            ],
+            "vmap": {
+                "duration": 10
+            }
+        },
+        {
+            "event_id": "event_12",
+            "activity": "Close \nConnection",
+            "timestamp": "2025-01-27T21:19:02.721389",
+            "omap": [
+                "ID86144",
+                "ID1428429147"
+            ],
+            "vmap": {
+                "duration": 17
+            }
+        }
+    ],
+    "objects": {
+        "ID86158": {
+            "type": "place",
+            "id": "Wait for\nResult"
+        },
+        "ID86225": {
+            "type": "transition",
+            "id": "Send Grid\nCoordinates"
+        },
+        "ID88846": {
+            "type": "transition",
+            "id": "Receive\nResult"
+        },
+        "ID89496": {
+            "type": "place",
+            "id": "Ready"
+        },
+        "ID89596": {
+            "type": "transition",
+            "id": "Connect to\nPython Weather\nService"
+        },
+        "ID86144": {
+            "type": "place",
+            "id": "Connected"
+        },
+        "ID1428424713": {
+            "type": "place",
+            "id": "Result"
+        },
+        "ID1448501350": {
+            "type": "place",
+            "id": "GridXY"
+        },
+        "ID1448506778": {
+            "type": "transition",
+            "id": "Turn On\nCooling"
+        },
+        "ID1448507541": {
+            "type": "transition",
+            "id": "Turn On\nHeating"
+        },
+        "ID1428429147": {
+            "type": "transition",
+            "id": "Close \nConnection"
+        }
+    }
+}

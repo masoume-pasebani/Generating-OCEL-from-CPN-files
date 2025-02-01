@@ -1,0 +1,1758 @@
+{
+    "ocel:global-log": {
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp",
+        "ocel:attribute-names": [
+            "activity",
+            "started_at",
+            "finished_at"
+        ],
+        "ocel:object-types": [
+            "generic"
+        ]
+    },
+    "ocel:events": [
+        {
+            "ocel:eid": "event_1",
+            "ocel:activity": "(InitSteelCoil)",
+            "ocel:timestamp": "2025-01-27 22:05:59",
+            "ocel:omap": [
+                "object_14"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:05:59",
+                "finished_at": "2025-01-27 22:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_2",
+            "ocel:activity": "(InitSteelCoil)",
+            "ocel:timestamp": "2025-01-27 22:10:59",
+            "ocel:omap": [
+                "object_26"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:10:59",
+                "finished_at": "2025-01-27 22:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_3",
+            "ocel:activity": "(InitSteelPin)",
+            "ocel:timestamp": "2025-01-27 22:15:59",
+            "ocel:omap": [
+                "object_98"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:15:59",
+                "finished_at": "2025-01-27 22:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_4",
+            "ocel:activity": "(InitSteelPin)",
+            "ocel:timestamp": "2025-01-27 22:20:59",
+            "ocel:omap": [
+                "object_68"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:20:59",
+                "finished_at": "2025-01-27 22:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_5",
+            "ocel:activity": "(InitSteelPin)",
+            "ocel:timestamp": "2025-01-27 22:25:59",
+            "ocel:omap": [
+                "object_33"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:25:59",
+                "finished_at": "2025-01-27 22:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_6",
+            "ocel:activity": "(InitSteelCoil)",
+            "ocel:timestamp": "2025-01-27 22:30:59",
+            "ocel:omap": [
+                "object_63"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:30:59",
+                "finished_at": "2025-01-27 22:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_7",
+            "ocel:activity": "(InitSteelPin)",
+            "ocel:timestamp": "2025-01-27 22:35:59",
+            "ocel:omap": [
+                "object_80"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:35:59",
+                "finished_at": "2025-01-27 22:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_8",
+            "ocel:activity": "(InitSteelCoil)",
+            "ocel:timestamp": "2025-01-27 22:40:59",
+            "ocel:omap": [
+                "object_13"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:40:59",
+                "finished_at": "2025-01-27 22:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_9",
+            "ocel:activity": "Log\nInitialisation",
+            "ocel:timestamp": "2025-01-27 22:45:59",
+            "ocel:omap": [
+                "object_36"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:45:59",
+                "finished_at": "2025-01-27 22:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_10",
+            "ocel:activity": "API\nInitialisation",
+            "ocel:timestamp": "2025-01-27 22:50:59",
+            "ocel:omap": [
+                "object_80"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:50:59",
+                "finished_at": "2025-01-27 22:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_11",
+            "ocel:activity": "Manufactoring\nProcess",
+            "ocel:timestamp": "2025-01-27 22:55:59",
+            "ocel:omap": [
+                "object_53"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 22:55:59",
+                "finished_at": "2025-01-27 23:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_12",
+            "ocel:activity": "Manufactoring\nProcess",
+            "ocel:timestamp": "2025-01-27 23:00:59",
+            "ocel:omap": [
+                "object_100"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:00:59",
+                "finished_at": "2025-01-27 23:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_13",
+            "ocel:activity": "Manufactoring\nProcess",
+            "ocel:timestamp": "2025-01-27 23:05:59",
+            "ocel:omap": [
+                "object_50"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:05:59",
+                "finished_at": "2025-01-27 23:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_14",
+            "ocel:activity": "API\nInitialisation",
+            "ocel:timestamp": "2025-01-27 23:10:59",
+            "ocel:omap": [
+                "object_86"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:10:59",
+                "finished_at": "2025-01-27 23:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_15",
+            "ocel:activity": "Log\nInitialisation",
+            "ocel:timestamp": "2025-01-27 23:15:59",
+            "ocel:omap": [
+                "object_74"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:15:59",
+                "finished_at": "2025-01-27 23:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_16",
+            "ocel:activity": "API Close",
+            "ocel:timestamp": "2025-01-27 23:20:59",
+            "ocel:omap": [
+                "object_27"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:20:59",
+                "finished_at": "2025-01-27 23:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_17",
+            "ocel:activity": "SplitSheet",
+            "ocel:timestamp": "2025-01-27 23:25:59",
+            "ocel:omap": [
+                "object_39"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:25:59",
+                "finished_at": "2025-01-27 23:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_18",
+            "ocel:activity": "SplitSheet",
+            "ocel:timestamp": "2025-01-27 23:30:59",
+            "ocel:omap": [
+                "object_65"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:30:59",
+                "finished_at": "2025-01-27 23:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_19",
+            "ocel:activity": "HeatSheet",
+            "ocel:timestamp": "2025-01-27 23:35:59",
+            "ocel:omap": [
+                "object_68"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:35:59",
+                "finished_at": "2025-01-27 23:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_20",
+            "ocel:activity": "HeatSheet",
+            "ocel:timestamp": "2025-01-27 23:40:59",
+            "ocel:omap": [
+                "object_1"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:40:59",
+                "finished_at": "2025-01-27 23:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_21",
+            "ocel:activity": "FormSheet",
+            "ocel:timestamp": "2025-01-27 23:45:59",
+            "ocel:omap": [
+                "object_58"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:45:59",
+                "finished_at": "2025-01-27 23:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_22",
+            "ocel:activity": "FormSheet",
+            "ocel:timestamp": "2025-01-27 23:50:59",
+            "ocel:omap": [
+                "object_44"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:50:59",
+                "finished_at": "2025-01-27 23:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_23",
+            "ocel:activity": "CoatPart",
+            "ocel:timestamp": "2025-01-27 23:55:59",
+            "ocel:omap": [
+                "object_28"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-27 23:55:59",
+                "finished_at": "2025-01-28 00:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_24",
+            "ocel:activity": "CoatPart",
+            "ocel:timestamp": "2025-01-28 00:00:59",
+            "ocel:omap": [
+                "object_16"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:00:59",
+                "finished_at": "2025-01-28 00:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_25",
+            "ocel:activity": "CutPart",
+            "ocel:timestamp": "2025-01-28 00:05:59",
+            "ocel:omap": [
+                "object_79"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:05:59",
+                "finished_at": "2025-01-28 00:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_26",
+            "ocel:activity": "CutPart",
+            "ocel:timestamp": "2025-01-28 00:10:59",
+            "ocel:omap": [
+                "object_55"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:10:59",
+                "finished_at": "2025-01-28 00:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_27",
+            "ocel:activity": "CheckParts",
+            "ocel:timestamp": "2025-01-28 00:15:59",
+            "ocel:omap": [
+                "object_21"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:15:59",
+                "finished_at": "2025-01-28 00:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_28",
+            "ocel:activity": "CheckParts",
+            "ocel:timestamp": "2025-01-28 00:20:59",
+            "ocel:omap": [
+                "object_46"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:20:59",
+                "finished_at": "2025-01-28 00:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_29",
+            "ocel:activity": "CheckParts",
+            "ocel:timestamp": "2025-01-28 00:25:59",
+            "ocel:omap": [
+                "object_2"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:25:59",
+                "finished_at": "2025-01-28 00:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_30",
+            "ocel:activity": "CheckParts",
+            "ocel:timestamp": "2025-01-28 00:30:59",
+            "ocel:omap": [
+                "object_33"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:30:59",
+                "finished_at": "2025-01-28 00:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_31",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 00:35:59",
+            "ocel:omap": [
+                "object_74"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:35:59",
+                "finished_at": "2025-01-28 00:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_32",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 00:40:59",
+            "ocel:omap": [
+                "object_24"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:40:59",
+                "finished_at": "2025-01-28 00:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_33",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 00:45:59",
+            "ocel:omap": [
+                "object_62"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:45:59",
+                "finished_at": "2025-01-28 00:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_34",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 00:50:59",
+            "ocel:omap": [
+                "object_76"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:50:59",
+                "finished_at": "2025-01-28 00:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_35",
+            "ocel:activity": "Pack",
+            "ocel:timestamp": "2025-01-28 00:55:59",
+            "ocel:omap": [
+                "object_89"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 00:55:59",
+                "finished_at": "2025-01-28 01:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_36",
+            "ocel:activity": "Pack",
+            "ocel:timestamp": "2025-01-28 01:00:59",
+            "ocel:omap": [
+                "object_4"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:00:59",
+                "finished_at": "2025-01-28 01:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_37",
+            "ocel:activity": "SwitchPosition",
+            "ocel:timestamp": "2025-01-28 01:05:59",
+            "ocel:omap": [
+                "object_43"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:05:59",
+                "finished_at": "2025-01-28 01:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_38",
+            "ocel:activity": "CheckParts",
+            "ocel:timestamp": "2025-01-28 01:10:59",
+            "ocel:omap": [
+                "object_6"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:10:59",
+                "finished_at": "2025-01-28 01:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_39",
+            "ocel:activity": "SwitchPosition",
+            "ocel:timestamp": "2025-01-28 01:15:59",
+            "ocel:omap": [
+                "object_46"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:15:59",
+                "finished_at": "2025-01-28 01:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_40",
+            "ocel:activity": "SplitSheet",
+            "ocel:timestamp": "2025-01-28 01:20:59",
+            "ocel:omap": [
+                "object_36"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:20:59",
+                "finished_at": "2025-01-28 01:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_41",
+            "ocel:activity": "CutPart",
+            "ocel:timestamp": "2025-01-28 01:25:59",
+            "ocel:omap": [
+                "object_49"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:25:59",
+                "finished_at": "2025-01-28 01:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_42",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 01:30:59",
+            "ocel:omap": [
+                "object_29"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:30:59",
+                "finished_at": "2025-01-28 01:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_43",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 01:35:59",
+            "ocel:omap": [
+                "object_38"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:35:59",
+                "finished_at": "2025-01-28 01:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_44",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 01:40:59",
+            "ocel:omap": [
+                "object_49"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:40:59",
+                "finished_at": "2025-01-28 01:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_45",
+            "ocel:activity": "SwitchPosition",
+            "ocel:timestamp": "2025-01-28 01:45:59",
+            "ocel:omap": [
+                "object_5"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:45:59",
+                "finished_at": "2025-01-28 01:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_46",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 01:50:59",
+            "ocel:omap": [
+                "object_65"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:50:59",
+                "finished_at": "2025-01-28 01:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_47",
+            "ocel:activity": "SplitSheet",
+            "ocel:timestamp": "2025-01-28 01:55:59",
+            "ocel:omap": [
+                "object_31"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 01:55:59",
+                "finished_at": "2025-01-28 02:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_48",
+            "ocel:activity": "SwitchPosition",
+            "ocel:timestamp": "2025-01-28 02:00:59",
+            "ocel:omap": [
+                "object_27"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:00:59",
+                "finished_at": "2025-01-28 02:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_49",
+            "ocel:activity": "(Load)",
+            "ocel:timestamp": "2025-01-28 02:05:59",
+            "ocel:omap": [
+                "object_83"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:05:59",
+                "finished_at": "2025-01-28 02:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_50",
+            "ocel:activity": "(Load)",
+            "ocel:timestamp": "2025-01-28 02:10:59",
+            "ocel:omap": [
+                "object_81"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:10:59",
+                "finished_at": "2025-01-28 02:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_51",
+            "ocel:activity": "(Unload)",
+            "ocel:timestamp": "2025-01-28 02:15:59",
+            "ocel:omap": [
+                "object_19"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:15:59",
+                "finished_at": "2025-01-28 02:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_52",
+            "ocel:activity": "(Unload)",
+            "ocel:timestamp": "2025-01-28 02:20:59",
+            "ocel:omap": [
+                "object_55"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:20:59",
+                "finished_at": "2025-01-28 02:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_53",
+            "ocel:activity": "(Load)",
+            "ocel:timestamp": "2025-01-28 02:25:59",
+            "ocel:omap": [
+                "object_19"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:25:59",
+                "finished_at": "2025-01-28 02:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_54",
+            "ocel:activity": "(Unload)",
+            "ocel:timestamp": "2025-01-28 02:30:59",
+            "ocel:omap": [
+                "object_17"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:30:59",
+                "finished_at": "2025-01-28 02:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_55",
+            "ocel:activity": "SplitSheet1",
+            "ocel:timestamp": "2025-01-28 02:35:59",
+            "ocel:omap": [
+                "object_55"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:35:59",
+                "finished_at": "2025-01-28 02:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_56",
+            "ocel:activity": "SplitSheet1",
+            "ocel:timestamp": "2025-01-28 02:40:59",
+            "ocel:omap": [
+                "object_67"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:40:59",
+                "finished_at": "2025-01-28 02:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_57",
+            "ocel:activity": "SplitSheet1",
+            "ocel:timestamp": "2025-01-28 02:45:59",
+            "ocel:omap": [
+                "object_31"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:45:59",
+                "finished_at": "2025-01-28 02:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_58",
+            "ocel:activity": "SplitSheet1",
+            "ocel:timestamp": "2025-01-28 02:50:59",
+            "ocel:omap": [
+                "object_29"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:50:59",
+                "finished_at": "2025-01-28 02:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_59",
+            "ocel:activity": "SplitSheet1",
+            "ocel:timestamp": "2025-01-28 02:55:59",
+            "ocel:omap": [
+                "object_11"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 02:55:59",
+                "finished_at": "2025-01-28 03:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_60",
+            "ocel:activity": "(Load)",
+            "ocel:timestamp": "2025-01-28 03:00:59",
+            "ocel:omap": [
+                "object_17"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:00:59",
+                "finished_at": "2025-01-28 03:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_61",
+            "ocel:activity": "(Load)",
+            "ocel:timestamp": "2025-01-28 03:05:59",
+            "ocel:omap": [
+                "object_30"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:05:59",
+                "finished_at": "2025-01-28 03:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_62",
+            "ocel:activity": "HeatSheet",
+            "ocel:timestamp": "2025-01-28 03:10:59",
+            "ocel:omap": [
+                "object_82"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:10:59",
+                "finished_at": "2025-01-28 03:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_63",
+            "ocel:activity": "HeatSheet",
+            "ocel:timestamp": "2025-01-28 03:15:59",
+            "ocel:omap": [
+                "object_74"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:15:59",
+                "finished_at": "2025-01-28 03:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_64",
+            "ocel:activity": "FormSheet",
+            "ocel:timestamp": "2025-01-28 03:20:59",
+            "ocel:omap": [
+                "object_59"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:20:59",
+                "finished_at": "2025-01-28 03:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_65",
+            "ocel:activity": "FormSheet",
+            "ocel:timestamp": "2025-01-28 03:25:59",
+            "ocel:omap": [
+                "object_30"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:25:59",
+                "finished_at": "2025-01-28 03:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_66",
+            "ocel:activity": "CutFemale",
+            "ocel:timestamp": "2025-01-28 03:30:59",
+            "ocel:omap": [
+                "object_38"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:30:59",
+                "finished_at": "2025-01-28 03:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_67",
+            "ocel:activity": "CutFemale",
+            "ocel:timestamp": "2025-01-28 03:35:59",
+            "ocel:omap": [
+                "object_66"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:35:59",
+                "finished_at": "2025-01-28 03:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_68",
+            "ocel:activity": "CutMale",
+            "ocel:timestamp": "2025-01-28 03:40:59",
+            "ocel:omap": [
+                "object_22"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:40:59",
+                "finished_at": "2025-01-28 03:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_69",
+            "ocel:activity": "CutMale",
+            "ocel:timestamp": "2025-01-28 03:45:59",
+            "ocel:omap": [
+                "object_46"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:45:59",
+                "finished_at": "2025-01-28 03:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_70",
+            "ocel:activity": "CutFemale",
+            "ocel:timestamp": "2025-01-28 03:50:59",
+            "ocel:omap": [
+                "object_87"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:50:59",
+                "finished_at": "2025-01-28 03:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_71",
+            "ocel:activity": "CutMale",
+            "ocel:timestamp": "2025-01-28 03:55:59",
+            "ocel:omap": [
+                "object_32"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 03:55:59",
+                "finished_at": "2025-01-28 04:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_72",
+            "ocel:activity": "(UnBatch)",
+            "ocel:timestamp": "2025-01-28 04:00:59",
+            "ocel:omap": [
+                "object_78"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:00:59",
+                "finished_at": "2025-01-28 04:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_73",
+            "ocel:activity": "(UnBatch)",
+            "ocel:timestamp": "2025-01-28 04:05:59",
+            "ocel:omap": [
+                "object_80"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:05:59",
+                "finished_at": "2025-01-28 04:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_74",
+            "ocel:activity": "(UnBatch)",
+            "ocel:timestamp": "2025-01-28 04:10:59",
+            "ocel:omap": [
+                "object_26"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:10:59",
+                "finished_at": "2025-01-28 04:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_75",
+            "ocel:activity": "CutMale",
+            "ocel:timestamp": "2025-01-28 04:15:59",
+            "ocel:omap": [
+                "object_28"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:15:59",
+                "finished_at": "2025-01-28 04:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_76",
+            "ocel:activity": "CutFemale",
+            "ocel:timestamp": "2025-01-28 04:20:59",
+            "ocel:omap": [
+                "object_72"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:20:59",
+                "finished_at": "2025-01-28 04:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_77",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 04:25:59",
+            "ocel:omap": [
+                "object_81"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:25:59",
+                "finished_at": "2025-01-28 04:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_78",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 04:30:59",
+            "ocel:omap": [
+                "object_7"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:30:59",
+                "finished_at": "2025-01-28 04:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_79",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 04:35:59",
+            "ocel:omap": [
+                "object_42"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:35:59",
+                "finished_at": "2025-01-28 04:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_80",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 04:40:59",
+            "ocel:omap": [
+                "object_84"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:40:59",
+                "finished_at": "2025-01-28 04:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_81",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 04:45:59",
+            "ocel:omap": [
+                "object_17"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:45:59",
+                "finished_at": "2025-01-28 04:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_82",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 04:50:59",
+            "ocel:omap": [
+                "object_81"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:50:59",
+                "finished_at": "2025-01-28 04:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_83",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 04:55:59",
+            "ocel:omap": [
+                "object_27"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 04:55:59",
+                "finished_at": "2025-01-28 05:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_84",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 05:00:59",
+            "ocel:omap": [
+                "object_49"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:00:59",
+                "finished_at": "2025-01-28 05:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_85",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 05:05:59",
+            "ocel:omap": [
+                "object_43"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:05:59",
+                "finished_at": "2025-01-28 05:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_86",
+            "ocel:activity": "CheckFemalePart",
+            "ocel:timestamp": "2025-01-28 05:10:59",
+            "ocel:omap": [
+                "object_26"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:10:59",
+                "finished_at": "2025-01-28 05:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_87",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 05:15:59",
+            "ocel:omap": [
+                "object_46"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:15:59",
+                "finished_at": "2025-01-28 05:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_88",
+            "ocel:activity": "CheckMalePart",
+            "ocel:timestamp": "2025-01-28 05:20:59",
+            "ocel:omap": [
+                "object_11"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:20:59",
+                "finished_at": "2025-01-28 05:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_89",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:25:59",
+            "ocel:omap": [
+                "object_59"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:25:59",
+                "finished_at": "2025-01-28 05:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_90",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:30:59",
+            "ocel:omap": [
+                "object_13"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:30:59",
+                "finished_at": "2025-01-28 05:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_91",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:35:59",
+            "ocel:omap": [
+                "object_9"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:35:59",
+                "finished_at": "2025-01-28 05:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_92",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:40:59",
+            "ocel:omap": [
+                "object_5"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:40:59",
+                "finished_at": "2025-01-28 05:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_93",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:45:59",
+            "ocel:omap": [
+                "object_67"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:45:59",
+                "finished_at": "2025-01-28 05:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_94",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:50:59",
+            "ocel:omap": [
+                "object_24"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:50:59",
+                "finished_at": "2025-01-28 05:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_95",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 05:55:59",
+            "ocel:omap": [
+                "object_35"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 05:55:59",
+                "finished_at": "2025-01-28 06:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_96",
+            "ocel:activity": "Assemble",
+            "ocel:timestamp": "2025-01-28 06:00:59",
+            "ocel:omap": [
+                "object_43"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:00:59",
+                "finished_at": "2025-01-28 06:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_97",
+            "ocel:activity": "PackHinges",
+            "ocel:timestamp": "2025-01-28 06:05:59",
+            "ocel:omap": [
+                "object_91"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:05:59",
+                "finished_at": "2025-01-28 06:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_98",
+            "ocel:activity": "(Buffer)",
+            "ocel:timestamp": "2025-01-28 06:10:59",
+            "ocel:omap": [
+                "object_67"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:10:59",
+                "finished_at": "2025-01-28 06:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_99",
+            "ocel:activity": "(Buffer)",
+            "ocel:timestamp": "2025-01-28 06:15:59",
+            "ocel:omap": [
+                "object_11"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:15:59",
+                "finished_at": "2025-01-28 06:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_100",
+            "ocel:activity": "PackHinges",
+            "ocel:timestamp": "2025-01-28 06:20:59",
+            "ocel:omap": [
+                "object_12"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:20:59",
+                "finished_at": "2025-01-28 06:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_101",
+            "ocel:activity": "PackHinges",
+            "ocel:timestamp": "2025-01-28 06:25:59",
+            "ocel:omap": [
+                "object_68"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:25:59",
+                "finished_at": "2025-01-28 06:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_102",
+            "ocel:activity": "(Buffer)",
+            "ocel:timestamp": "2025-01-28 06:30:59",
+            "ocel:omap": [
+                "object_31"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:30:59",
+                "finished_at": "2025-01-28 06:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_103",
+            "ocel:activity": "PackHinges",
+            "ocel:timestamp": "2025-01-28 06:35:59",
+            "ocel:omap": [
+                "object_95"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:35:59",
+                "finished_at": "2025-01-28 06:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_104",
+            "ocel:activity": "PackHinges",
+            "ocel:timestamp": "2025-01-28 06:40:59",
+            "ocel:omap": [
+                "object_64"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:40:59",
+                "finished_at": "2025-01-28 06:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_105",
+            "ocel:activity": "StartDay",
+            "ocel:timestamp": "2025-01-28 06:45:59",
+            "ocel:omap": [
+                "object_74"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:45:59",
+                "finished_at": "2025-01-28 06:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_106",
+            "ocel:activity": "StartDay",
+            "ocel:timestamp": "2025-01-28 06:50:59",
+            "ocel:omap": [
+                "object_87"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:50:59",
+                "finished_at": "2025-01-28 06:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_107",
+            "ocel:activity": "GoToW2",
+            "ocel:timestamp": "2025-01-28 06:55:59",
+            "ocel:omap": [
+                "object_44"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 06:55:59",
+                "finished_at": "2025-01-28 07:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_108",
+            "ocel:activity": "GoToW2",
+            "ocel:timestamp": "2025-01-28 07:00:59",
+            "ocel:omap": [
+                "object_10"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:00:59",
+                "finished_at": "2025-01-28 07:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_109",
+            "ocel:activity": "WaitNextDay",
+            "ocel:timestamp": "2025-01-28 07:05:59",
+            "ocel:omap": [
+                "object_24"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:05:59",
+                "finished_at": "2025-01-28 07:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_110",
+            "ocel:activity": "DoInits",
+            "ocel:timestamp": "2025-01-28 07:10:59",
+            "ocel:omap": [
+                "object_28"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:10:59",
+                "finished_at": "2025-01-28 07:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_111",
+            "ocel:activity": "WaitNextDay",
+            "ocel:timestamp": "2025-01-28 07:15:59",
+            "ocel:omap": [
+                "object_49"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:15:59",
+                "finished_at": "2025-01-28 07:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_112",
+            "ocel:activity": "GoToW2",
+            "ocel:timestamp": "2025-01-28 07:20:59",
+            "ocel:omap": [
+                "object_65"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:20:59",
+                "finished_at": "2025-01-28 07:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_113",
+            "ocel:activity": "DoInits",
+            "ocel:timestamp": "2025-01-28 07:25:59",
+            "ocel:omap": [
+                "object_24"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:25:59",
+                "finished_at": "2025-01-28 07:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_114",
+            "ocel:activity": "LunchTime",
+            "ocel:timestamp": "2025-01-28 07:30:59",
+            "ocel:omap": [
+                "object_2"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:30:59",
+                "finished_at": "2025-01-28 07:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_115",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 07:35:59",
+            "ocel:omap": [
+                "object_76"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:35:59",
+                "finished_at": "2025-01-28 07:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_116",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 07:40:59",
+            "ocel:omap": [
+                "object_28"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:40:59",
+                "finished_at": "2025-01-28 07:45:59"
+            }
+        },
+        {
+            "ocel:eid": "event_117",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 07:45:59",
+            "ocel:omap": [
+                "object_23"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:45:59",
+                "finished_at": "2025-01-28 07:50:59"
+            }
+        },
+        {
+            "ocel:eid": "event_118",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 07:50:59",
+            "ocel:omap": [
+                "object_90"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:50:59",
+                "finished_at": "2025-01-28 07:55:59"
+            }
+        },
+        {
+            "ocel:eid": "event_119",
+            "ocel:activity": "MoveParts",
+            "ocel:timestamp": "2025-01-28 07:55:59",
+            "ocel:omap": [
+                "object_38"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 07:55:59",
+                "finished_at": "2025-01-28 08:00:59"
+            }
+        },
+        {
+            "ocel:eid": "event_120",
+            "ocel:activity": "(DelEmty)",
+            "ocel:timestamp": "2025-01-28 08:00:59",
+            "ocel:omap": [
+                "object_19"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:00:59",
+                "finished_at": "2025-01-28 08:05:59"
+            }
+        },
+        {
+            "ocel:eid": "event_121",
+            "ocel:activity": "CoatPart",
+            "ocel:timestamp": "2025-01-28 08:05:59",
+            "ocel:omap": [
+                "object_67"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:05:59",
+                "finished_at": "2025-01-28 08:10:59"
+            }
+        },
+        {
+            "ocel:eid": "event_122",
+            "ocel:activity": "CoatPart",
+            "ocel:timestamp": "2025-01-28 08:10:59",
+            "ocel:omap": [
+                "object_67"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:10:59",
+                "finished_at": "2025-01-28 08:15:59"
+            }
+        },
+        {
+            "ocel:eid": "event_123",
+            "ocel:activity": "(BufferParts)",
+            "ocel:timestamp": "2025-01-28 08:15:59",
+            "ocel:omap": [
+                "object_4"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:15:59",
+                "finished_at": "2025-01-28 08:20:59"
+            }
+        },
+        {
+            "ocel:eid": "event_124",
+            "ocel:activity": "(BufferParts)",
+            "ocel:timestamp": "2025-01-28 08:20:59",
+            "ocel:omap": [
+                "object_38"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:20:59",
+                "finished_at": "2025-01-28 08:25:59"
+            }
+        },
+        {
+            "ocel:eid": "event_125",
+            "ocel:activity": "(BufferParts)",
+            "ocel:timestamp": "2025-01-28 08:25:59",
+            "ocel:omap": [
+                "object_7"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:25:59",
+                "finished_at": "2025-01-28 08:30:59"
+            }
+        },
+        {
+            "ocel:eid": "event_126",
+            "ocel:activity": "(BufferParts)",
+            "ocel:timestamp": "2025-01-28 08:30:59",
+            "ocel:omap": [
+                "object_58"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:30:59",
+                "finished_at": "2025-01-28 08:35:59"
+            }
+        },
+        {
+            "ocel:eid": "event_127",
+            "ocel:activity": "FormSteelSheet",
+            "ocel:timestamp": "2025-01-28 08:35:59",
+            "ocel:omap": [
+                "object_56"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:35:59",
+                "finished_at": "2025-01-28 08:40:59"
+            }
+        },
+        {
+            "ocel:eid": "event_128",
+            "ocel:activity": "FormSteelSheet",
+            "ocel:timestamp": "2025-01-28 08:40:59",
+            "ocel:omap": [
+                "object_88"
+            ],
+            "ocel:vmap": {
+                "started_at": "2025-01-28 08:40:59",
+                "finished_at": "2025-01-28 08:45:59"
+            }
+        }
+    ],
+    "ocel:objects": {
+        "object_14": {
+            "ocel:type": "generic"
+        },
+        "object_26": {
+            "ocel:type": "generic"
+        },
+        "object_98": {
+            "ocel:type": "generic"
+        },
+        "object_68": {
+            "ocel:type": "generic"
+        },
+        "object_33": {
+            "ocel:type": "generic"
+        },
+        "object_63": {
+            "ocel:type": "generic"
+        },
+        "object_80": {
+            "ocel:type": "generic"
+        },
+        "object_13": {
+            "ocel:type": "generic"
+        },
+        "object_36": {
+            "ocel:type": "generic"
+        },
+        "object_53": {
+            "ocel:type": "generic"
+        },
+        "object_100": {
+            "ocel:type": "generic"
+        },
+        "object_50": {
+            "ocel:type": "generic"
+        },
+        "object_86": {
+            "ocel:type": "generic"
+        },
+        "object_74": {
+            "ocel:type": "generic"
+        },
+        "object_27": {
+            "ocel:type": "generic"
+        },
+        "object_39": {
+            "ocel:type": "generic"
+        },
+        "object_65": {
+            "ocel:type": "generic"
+        },
+        "object_1": {
+            "ocel:type": "generic"
+        },
+        "object_58": {
+            "ocel:type": "generic"
+        },
+        "object_44": {
+            "ocel:type": "generic"
+        },
+        "object_28": {
+            "ocel:type": "generic"
+        },
+        "object_16": {
+            "ocel:type": "generic"
+        },
+        "object_79": {
+            "ocel:type": "generic"
+        },
+        "object_55": {
+            "ocel:type": "generic"
+        },
+        "object_21": {
+            "ocel:type": "generic"
+        },
+        "object_46": {
+            "ocel:type": "generic"
+        },
+        "object_2": {
+            "ocel:type": "generic"
+        },
+        "object_24": {
+            "ocel:type": "generic"
+        },
+        "object_62": {
+            "ocel:type": "generic"
+        },
+        "object_76": {
+            "ocel:type": "generic"
+        },
+        "object_89": {
+            "ocel:type": "generic"
+        },
+        "object_4": {
+            "ocel:type": "generic"
+        },
+        "object_43": {
+            "ocel:type": "generic"
+        },
+        "object_6": {
+            "ocel:type": "generic"
+        },
+        "object_49": {
+            "ocel:type": "generic"
+        },
+        "object_29": {
+            "ocel:type": "generic"
+        },
+        "object_38": {
+            "ocel:type": "generic"
+        },
+        "object_5": {
+            "ocel:type": "generic"
+        },
+        "object_31": {
+            "ocel:type": "generic"
+        },
+        "object_83": {
+            "ocel:type": "generic"
+        },
+        "object_81": {
+            "ocel:type": "generic"
+        },
+        "object_19": {
+            "ocel:type": "generic"
+        },
+        "object_17": {
+            "ocel:type": "generic"
+        },
+        "object_67": {
+            "ocel:type": "generic"
+        },
+        "object_11": {
+            "ocel:type": "generic"
+        },
+        "object_30": {
+            "ocel:type": "generic"
+        },
+        "object_82": {
+            "ocel:type": "generic"
+        },
+        "object_59": {
+            "ocel:type": "generic"
+        },
+        "object_66": {
+            "ocel:type": "generic"
+        },
+        "object_22": {
+            "ocel:type": "generic"
+        },
+        "object_87": {
+            "ocel:type": "generic"
+        },
+        "object_32": {
+            "ocel:type": "generic"
+        },
+        "object_78": {
+            "ocel:type": "generic"
+        },
+        "object_72": {
+            "ocel:type": "generic"
+        },
+        "object_7": {
+            "ocel:type": "generic"
+        },
+        "object_42": {
+            "ocel:type": "generic"
+        },
+        "object_84": {
+            "ocel:type": "generic"
+        },
+        "object_9": {
+            "ocel:type": "generic"
+        },
+        "object_35": {
+            "ocel:type": "generic"
+        },
+        "object_91": {
+            "ocel:type": "generic"
+        },
+        "object_12": {
+            "ocel:type": "generic"
+        },
+        "object_95": {
+            "ocel:type": "generic"
+        },
+        "object_64": {
+            "ocel:type": "generic"
+        },
+        "object_10": {
+            "ocel:type": "generic"
+        },
+        "object_23": {
+            "ocel:type": "generic"
+        },
+        "object_90": {
+            "ocel:type": "generic"
+        },
+        "object_56": {
+            "ocel:type": "generic"
+        },
+        "object_88": {
+            "ocel:type": "generic"
+        }
+    }
+}

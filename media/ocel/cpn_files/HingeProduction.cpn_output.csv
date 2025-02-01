@@ -1,0 +1,3 @@
+Event ID,Activity,Timestamp,Object IDs
+e1,A,2025-01-01T10:00:00Z,o1
+e2,B,2025-01-01T11:00:00Z,o1;o2

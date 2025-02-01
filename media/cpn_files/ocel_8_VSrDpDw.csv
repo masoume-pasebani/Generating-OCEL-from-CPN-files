@@ -1,0 +1,143 @@
+case_id,activity,started_at,finished_at,objects,object_ids
+case_1,(InitSteelCoil),2025-01-26 19:50:07,2025-01-26 20:20:07,P2;token_11;token_40;token_66;(InitSteelCoil),ID816;token_11;token_40;token_66;ID901
+case_2,(InitSteelCoil),2025-01-26 19:50:07,2025-01-26 20:13:07,P3;token_31;token_49;(InitSteelCoil),ID861;token_31;token_49;ID901
+case_3,(InitSteelPin),2025-01-26 19:50:07,2025-01-26 20:09:07,P4;token_4;token_14;token_1;(InitSteelPin),ID101;token_4;token_14;token_1;ID78
+case_4,(InitSteelPin),2025-01-26 19:50:07,2025-01-26 20:17:07,P5;token_48;token_88;(InitSteelPin),ID910;token_48;token_88;ID78
+case_5,(InitSteelPin),2025-01-26 19:50:07,2025-01-26 20:08:07,P8;token_23;token_100;token_40;(InitSteelPin),ID622;token_23;token_100;token_40;ID78
+case_6,(InitSteelCoil),2025-01-26 19:50:07,2025-01-26 20:04:07,P1;token_66;token_25;token_59;(InitSteelCoil),ID150;token_66;token_25;token_59;ID901
+case_7,(InitSteelPin),2025-01-26 19:50:07,2025-01-26 20:15:07,P4;token_74;(InitSteelPin),ID101;token_74;ID78
+case_8,(InitSteelCoil),2025-01-26 19:50:07,2025-01-26 19:58:07,P2;token_37;token_9;(InitSteelCoil),ID816;token_37;token_9;ID901
+case_9,"Log
+Initialisation",2025-01-26 19:50:07,2025-01-26 20:04:07,"C1;token_94;token_37;Log
+Initialisation",ID481;token_94;token_37;ID653
+case_10,"API
+Initialisation",2025-01-26 19:50:07,2025-01-26 19:55:07,"C3;token_22;token_94;token_20;API
+Initialisation",ID562;token_22;token_94;token_20;ID730
+case_11,"Manufactoring
+Process",2025-01-26 19:50:07,2025-01-26 20:16:07,"P5;token_26;Manufactoring
+Process",ID910;token_26;ID814
+case_12,"Manufactoring
+Process",2025-01-26 19:50:07,2025-01-26 20:04:07,"P3;token_2;Manufactoring
+Process",ID861;token_2;ID814
+case_13,"Manufactoring
+Process",2025-01-26 19:50:07,2025-01-26 20:14:07,"P6;token_16;Manufactoring
+Process",ID174;token_16;ID814
+case_14,"API
+Initialisation",2025-01-26 19:50:07,2025-01-26 20:05:07,"C2;token_98;token_77;token_21;API
+Initialisation",ID512;token_98;token_77;token_21;ID730
+case_15,"Log
+Initialisation",2025-01-26 19:50:07,2025-01-26 20:18:07,"C2;token_11;token_36;token_84;Log
+Initialisation",ID512;token_11;token_36;token_84;ID653
+case_16,API Close,2025-01-26 19:50:07,2025-01-26 19:59:07,C4;token_73;token_39;token_12;API Close,ID609;token_73;token_39;token_12;ID796
+case_17,SplitSheet,2025-01-26 19:50:07,2025-01-26 20:06:07,M1;token_11;SplitSheet,ID233;token_11;ID671
+case_18,SplitSheet,2025-01-26 19:50:07,2025-01-26 20:02:07,M2;token_91;token_73;SplitSheet,ID594;token_91;token_73;ID671
+case_19,HeatSheet,2025-01-26 19:50:07,2025-01-26 20:07:07,M3;token_9;HeatSheet,ID883;token_9;ID855
+case_20,HeatSheet,2025-01-26 19:50:07,2025-01-26 20:16:07,M2;token_35;HeatSheet,ID594;token_35;ID855
+case_21,FormSheet,2025-01-26 19:50:07,2025-01-26 19:55:07,M4;token_26;token_68;FormSheet,ID733;token_26;token_68;ID24
+case_22,FormSheet,2025-01-26 19:50:07,2025-01-26 20:12:07,M3;token_58;token_93;token_54;FormSheet,ID883;token_58;token_93;token_54;ID24
+case_23,CoatPart,2025-01-26 19:50:07,2025-01-26 20:01:07,M5;token_16;CoatPart,ID908;token_16;ID804
+case_24,CoatPart,2025-01-26 19:50:07,2025-01-26 20:12:07,M4;token_77;token_76;CoatPart,ID733;token_77;token_76;ID804
+case_25,CutPart,2025-01-26 19:50:07,2025-01-26 19:56:07,M7;token_64;token_47;token_52;CutPart,ID95;token_64;token_47;token_52;ID110
+case_26,CutPart,2025-01-26 19:50:07,2025-01-26 19:59:07,M6;token_32;token_90;CutPart,ID835;token_32;token_90;ID110
+case_27,CheckParts,2025-01-26 19:50:07,2025-01-26 20:16:07,M9;token_30;CheckParts,ID215;token_30;ID7
+case_28,CheckParts,2025-01-26 19:50:07,2025-01-26 20:03:07,M6;token_69;token_79;CheckParts,ID835;token_69;token_79;ID7
+case_29,CheckParts,2025-01-26 19:50:07,2025-01-26 20:16:07,M7;token_96;token_42;token_82;CheckParts,ID95;token_96;token_42;token_82;ID7
+case_30,CheckParts,2025-01-26 19:50:07,2025-01-26 20:13:07,M8;token_5;token_50;CheckParts,ID165;token_5;token_50;ID7
+case_31,Assemble,2025-01-26 19:50:07,2025-01-26 19:57:07,M11;token_55;token_90;token_94;Assemble,ID265;token_55;token_90;token_94;ID122
+case_32,Assemble,2025-01-26 19:50:07,2025-01-26 20:11:07,M9;token_54;token_85;token_29;Assemble,ID215;token_54;token_85;token_29;ID122
+case_33,Assemble,2025-01-26 19:50:07,2025-01-26 20:13:07,M10;token_13;token_68;Assemble,ID830;token_13;token_68;ID122
+case_34,Assemble,2025-01-26 19:50:07,2025-01-26 20:10:07,M8;token_20;token_62;token_88;Assemble,ID165;token_20;token_62;token_88;ID122
+case_35,Pack,2025-01-26 19:50:07,2025-01-26 19:59:07,M11;token_93;token_9;Pack,ID265;token_93;token_9;ID192
+case_36,Pack,2025-01-26 19:50:07,2025-01-26 20:06:07,M12;token_24;token_8;token_35;Pack,ID561;token_24;token_8;token_35;ID192
+case_37,SwitchPosition,2025-01-26 19:50:07,2025-01-26 20:12:07,MA1;token_96;token_5;token_92;SwitchPosition,ID685;token_96;token_5;token_92;ID689
+case_38,CheckParts,2025-01-26 19:50:07,2025-01-26 20:15:07,MA3;token_47;CheckParts,ID673;token_47;ID7
+case_39,SwitchPosition,2025-01-26 19:50:07,2025-01-26 20:07:07,MA3;token_7;SwitchPosition,ID673;token_7;ID689
+case_40,SplitSheet,2025-01-26 19:50:07,2025-01-26 20:14:07,MA1;token_40;SplitSheet,ID685;token_40;ID671
+case_41,CutPart,2025-01-26 19:50:07,2025-01-26 20:09:07,M51;token_6;token_74;CutPart,ID453;token_6;token_74;ID110
+case_42,MoveParts,2025-01-26 19:50:07,2025-01-26 20:14:07,M51;token_2;token_98;token_50;MoveParts,ID453;token_2;token_98;token_50;ID522
+case_43,MoveParts,2025-01-26 19:50:07,2025-01-26 20:13:07,M5;token_22;token_46;token_24;MoveParts,ID908;token_22;token_46;token_24;ID522
+case_44,MoveParts,2025-01-26 19:50:07,2025-01-26 20:08:07,MA23;token_16;MoveParts,ID879;token_16;ID522
+case_45,SwitchPosition,2025-01-26 19:50:07,2025-01-26 20:12:07,MA23;token_99;SwitchPosition,ID879;token_99;ID689
+case_46,MoveParts,2025-01-26 19:50:07,2025-01-26 20:18:07,MA3;token_96;token_5;MoveParts,ID673;token_96;token_5;ID522
+case_47,SplitSheet,2025-01-26 19:50:07,2025-01-26 20:08:07,MA12;token_41;SplitSheet,ID182;token_41;ID671
+case_48,SwitchPosition,2025-01-26 19:50:07,2025-01-26 19:58:07,MA12;token_50;token_60;SwitchPosition,ID182;token_50;token_60;ID689
+case_49,(Load),2025-01-26 19:50:07,2025-01-26 20:20:07,M1;token_15;token_50;token_60;(Load),ID837;token_15;token_50;token_60;ID774
+case_50,(Load),2025-01-26 19:50:07,2025-01-26 20:06:07,S2;token_66;token_30;token_5;(Load),ID242;token_66;token_30;token_5;ID774
+case_51,(Unload),2025-01-26 19:50:07,2025-01-26 20:17:07,S2;token_64;(Unload),ID242;token_64;ID253
+case_52,(Unload),2025-01-26 19:50:07,2025-01-26 19:59:07,S1;token_6;token_91;token_49;(Unload),ID263;token_6;token_91;token_49;ID253
+case_53,(Load),2025-01-26 19:50:07,2025-01-26 20:17:07,S1;token_54;(Load),ID263;token_54;ID774
+case_54,(Unload),2025-01-26 19:50:07,2025-01-26 20:05:07,S3;token_63;token_56;(Unload),ID267;token_63;token_56;ID253
+case_55,SplitSheet1,2025-01-26 19:50:07,2025-01-26 19:59:07,S2;token_69;token_53;SplitSheet1,ID242;token_69;token_53;ID274
+case_56,SplitSheet1,2025-01-26 19:50:07,2025-01-26 20:11:07,S2;token_10;SplitSheet1,ID242;token_10;ID274
+case_57,SplitSheet1,2025-01-26 19:50:07,2025-01-26 19:57:07,S4;token_99;token_42;token_22;SplitSheet1,ID249;token_99;token_42;token_22;ID274
+case_58,SplitSheet1,2025-01-26 19:50:07,2025-01-26 20:01:07,S4;token_32;token_27;SplitSheet1,ID249;token_32;token_27;ID274
+case_59,SplitSheet1,2025-01-26 19:50:07,2025-01-26 20:20:07,M2;token_85;SplitSheet1,ID845;token_85;ID274
+case_60,(Load),2025-01-26 19:50:07,2025-01-26 19:55:07,MA1;token_78;token_65;(Load),ID743;token_78;token_65;ID774
+case_61,(Load),2025-01-26 19:50:07,2025-01-26 20:16:07,MA12;token_5;token_46;token_88;(Load),ID892;token_5;token_46;token_88;ID774
+case_62,HeatSheet,2025-01-26 19:50:07,2025-01-26 20:15:07,M3;token_81;token_40;token_18;HeatSheet,ID872;token_81;token_40;token_18;ID376
+case_63,HeatSheet,2025-01-26 19:50:07,2025-01-26 20:07:07,M2;token_14;token_63;HeatSheet,ID326;token_14;token_63;ID376
+case_64,FormSheet,2025-01-26 19:50:07,2025-01-26 20:08:07,M4;token_68;FormSheet,ID603;token_68;ID521
+case_65,FormSheet,2025-01-26 19:50:07,2025-01-26 20:11:07,M3;token_42;token_17;FormSheet,ID661;token_42;token_17;ID521
+case_66,CutFemale,2025-01-26 19:50:07,2025-01-26 20:14:07,M7;token_51;CutFemale,ID813;token_51;ID310
+case_67,CutFemale,2025-01-26 19:50:07,2025-01-26 20:03:07,C2;token_59;CutFemale,ID325;token_59;ID310
+case_68,CutMale,2025-01-26 19:50:07,2025-01-26 20:03:07,C2;token_15;CutMale,ID325;token_15;ID303
+case_69,CutMale,2025-01-26 19:50:07,2025-01-26 20:13:07,C1;token_46;token_13;token_21;CutMale,ID321;token_46;token_13;token_21;ID303
+case_70,CutFemale,2025-01-26 19:50:07,2025-01-26 20:01:07,C1;token_46;token_99;CutFemale,ID321;token_46;token_99;ID310
+case_71,CutMale,2025-01-26 19:50:07,2025-01-26 20:07:07,M6;token_56;token_68;CutMale,ID868;token_56;token_68;ID303
+case_72,(UnBatch),2025-01-26 19:50:07,2025-01-26 19:59:07,M51;token_97;(UnBatch),ID757;token_97;ID876
+case_73,(UnBatch),2025-01-26 19:50:07,2025-01-26 20:05:07,M51;token_35;(UnBatch),ID757;token_35;ID876
+case_74,(UnBatch),2025-01-26 19:50:07,2025-01-26 20:01:07,Cu1;token_21;token_95;(UnBatch),ID284;token_21;token_95;ID876
+case_75,CutMale,2025-01-26 19:50:07,2025-01-26 19:59:07,Cu1;token_7;CutMale,ID284;token_7;ID303
+case_76,CutFemale,2025-01-26 19:50:07,2025-01-26 20:10:07,Cu1;token_84;token_46;token_96;CutFemale,ID284;token_84;token_46;token_96;ID310
+case_77,CheckMalePart,2025-01-26 19:50:07,2025-01-26 20:12:07,M6;token_91;token_18;CheckMalePart,ID88;token_91;token_18;ID349
+case_78,CheckMalePart,2025-01-26 19:50:07,2025-01-26 20:11:07,M8;token_21;token_83;CheckMalePart,ID100;token_21;token_83;ID349
+case_79,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 20:10:07,M7;token_17;token_7;CheckFemalePart,ID93;token_17;token_7;ID359
+case_80,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 20:02:07,M9;token_10;token_70;token_51;CheckFemalePart,ID83;token_10;token_70;token_51;ID359
+case_81,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 19:56:07,H2;token_92;token_12;token_67;CheckFemalePart,ID368;token_92;token_12;token_67;ID359
+case_82,CheckMalePart,2025-01-26 19:50:07,2025-01-26 19:59:07,H1;token_63;token_96;CheckMalePart,ID373;token_63;token_96;ID349
+case_83,CheckMalePart,2025-01-26 19:50:07,2025-01-26 20:16:07,MA3;token_53;CheckMalePart,ID720;token_53;ID349
+case_84,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 20:19:07,MA3;token_86;token_75;CheckFemalePart,ID720;token_86;token_75;ID359
+case_85,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 20:03:07,QueueF;token_46;CheckFemalePart,ID21;token_46;ID359
+case_86,CheckFemalePart,2025-01-26 19:50:07,2025-01-26 20:04:07,QueueF;token_13;CheckFemalePart,ID21;token_13;ID359
+case_87,CheckMalePart,2025-01-26 19:50:07,2025-01-26 20:05:07,QueuM;token_86;CheckMalePart,ID43;token_86;ID349
+case_88,CheckMalePart,2025-01-26 19:50:07,2025-01-26 20:02:07,QueuM;token_48;token_56;CheckMalePart,ID43;token_48;token_56;ID349
+case_89,Assemble,2025-01-26 19:50:07,2025-01-26 20:19:07,M10;token_90;Assemble,ID153;token_90;ID142
+case_90,Assemble,2025-01-26 19:50:07,2025-01-26 20:10:07,M9;token_96;Assemble,ID160;token_96;ID142
+case_91,Assemble,2025-01-26 19:50:07,2025-01-26 20:04:07,P5;token_68;Assemble,ID167;token_68;ID142
+case_92,Assemble,2025-01-26 19:50:07,2025-01-26 20:01:07,M8;token_14;token_10;token_90;Assemble,ID176;token_14;token_10;token_90;ID142
+case_93,Assemble,2025-01-26 19:50:07,2025-01-26 20:18:07,QuF;token_30;token_58;Assemble,ID31;token_30;token_58;ID142
+case_94,Assemble,2025-01-26 19:50:07,2025-01-26 20:03:07,QuF;token_78;token_98;Assemble,ID31;token_78;token_98;ID142
+case_95,Assemble,2025-01-26 19:50:07,2025-01-26 19:59:07,QuM;token_8;token_18;token_99;Assemble,ID53;token_8;token_18;token_99;ID142
+case_96,Assemble,2025-01-26 19:50:07,2025-01-26 20:04:07,QuM;token_12;Assemble,ID53;token_12;ID142
+case_97,PackHinges,2025-01-26 19:50:07,2025-01-26 20:11:07,P6;token_8;token_88;token_100;PackHinges,ID221;token_8;token_88;token_100;ID206
+case_98,(Buffer),2025-01-26 19:50:07,2025-01-26 20:18:07,M10;token_11;(Buffer),ID217;token_11;ID406
+case_99,(Buffer),2025-01-26 19:50:07,2025-01-26 20:19:07,P1;token_67;token_4;token_55;(Buffer),ID411;token_67;token_4;token_55;ID406
+case_100,PackHinges,2025-01-26 19:50:07,2025-01-26 20:13:07,P1;token_77;PackHinges,ID411;token_77;ID206
+case_101,PackHinges,2025-01-26 19:50:07,2025-01-26 20:03:07,P1;token_52;PackHinges,ID411;token_52;ID206
+case_102,(Buffer),2025-01-26 19:50:07,2025-01-26 19:57:07,P1;token_89;(Buffer),ID411;token_89;ID406
+case_103,PackHinges,2025-01-26 19:50:07,2025-01-26 20:01:07,token_80;PackHinges,token_80;ID206
+case_104,PackHinges,2025-01-26 19:50:07,2025-01-26 19:58:07,token_64;token_28;token_60;PackHinges,token_64;token_28;token_60;ID206
+case_105,StartDay,2025-01-26 19:50:07,2025-01-26 20:05:07,MA1;token_78;token_9;token_77;StartDay,ID706;token_78;token_9;token_77;ID755
+case_106,StartDay,2025-01-26 19:50:07,2025-01-26 20:09:07,MA0;token_38;token_25;StartDay,ID340;token_38;token_25;ID755
+case_107,GoToW2,2025-01-26 19:50:07,2025-01-26 20:10:07,MA3;token_1;token_41;GoToW2,ID701;token_1;token_41;ID550
+case_108,GoToW2,2025-01-26 19:50:07,2025-01-26 20:16:07,MA23;token_37;GoToW2,ID782;token_37;ID550
+case_109,WaitNextDay,2025-01-26 19:50:07,2025-01-26 20:42:07,MA0;token_54;WaitNextDay,ID340;token_54;ID884
+case_110,DoInits,2025-01-26 19:50:07,2025-01-26 19:57:07,MA12;token_28;DoInits,ID35;token_28;ID546
+case_111,WaitNextDay,2025-01-26 19:50:07,2025-01-26 20:28:07,MA3;token_4;token_33;token_16;WaitNextDay,ID701;token_4;token_33;token_16;ID884
+case_112,GoToW2,2025-01-26 19:50:07,2025-01-26 20:02:07,Trig2;token_27;GoToW2,ID183;token_27;ID550
+case_113,DoInits,2025-01-26 19:50:07,2025-01-26 19:57:07,MA3;token_43;token_56;DoInits,ID701;token_43;token_56;ID546
+case_114,LunchTime,2025-01-26 19:50:07,2025-01-26 20:12:07,MA3;token_23;LunchTime,ID701;token_23;ID424
+case_115,MoveParts,2025-01-26 19:50:07,2025-01-26 20:20:07,M51;token_95;MoveParts,ID750;token_95;ID679
+case_116,MoveParts,2025-01-26 19:50:07,2025-01-26 20:16:07,M5;token_46;token_42;token_22;MoveParts,ID819;token_46;token_42;token_22;ID679
+case_117,MoveParts,2025-01-26 19:50:07,2025-01-26 20:11:07,MA23;token_85;token_56;token_72;MoveParts,ID721;token_85;token_56;token_72;ID679
+case_118,MoveParts,2025-01-26 19:50:07,2025-01-26 19:57:07,MA3;token_44;token_80;token_55;MoveParts,ID449;token_44;token_80;token_55;ID679
+case_119,MoveParts,2025-01-26 19:50:07,2025-01-26 20:06:07,M5;token_57;MoveParts,ID819;token_57;ID679
+case_120,(DelEmty),2025-01-26 19:50:07,2025-01-26 20:15:07,M51;token_73;token_64;(DelEmty),ID750;token_73;token_64;ID202
+case_121,CoatPart,2025-01-26 19:50:07,2025-01-26 19:59:07,M4;token_30;token_13;token_60;CoatPart,ID668;token_30;token_13;token_60;ID906
+case_122,CoatPart,2025-01-26 19:50:07,2025-01-26 20:12:07,CP1;token_85;token_88;CoatPart,ID118;token_85;token_88;ID906
+case_123,(BufferParts),2025-01-26 19:50:07,2025-01-26 20:00:07,CP1;token_88;(BufferParts),ID118;token_88;ID197
+case_124,(BufferParts),2025-01-26 19:50:07,2025-01-26 20:10:07,M5;token_82;token_72;token_79;(BufferParts),ID335;token_82;token_72;token_79;ID197
+case_125,(BufferParts),2025-01-26 19:50:07,2025-01-26 20:07:07,M5;token_84;token_54;token_19;(BufferParts),ID335;token_84;token_54;token_19;ID197
+case_126,(BufferParts),2025-01-26 19:50:07,2025-01-26 20:15:07,Trigger2;token_64;token_48;token_29;(BufferParts),ID256;token_64;token_48;token_29;ID197
+case_127,FormSteelSheet,2025-01-26 19:50:07,2025-01-26 19:59:07,Input;token_81;token_68;FormSteelSheet,ID580;token_81;token_68;ID513
+case_128,FormSteelSheet,2025-01-26 19:50:07,2025-01-26 20:20:07,token_6;token_54;FormSteelSheet,token_6;token_54;ID513

@@ -1,0 +1,118 @@
+{
+    "events": [
+        {
+            "event_id": "event_1",
+            "activity": "Receive\nCity Name",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86158",
+                "ID86225"
+            ],
+            "vmap": {
+                "duration": 9
+            }
+        },
+        {
+            "event_id": "event_2",
+            "activity": "SendMsg",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86158",
+                "ID88846"
+            ],
+            "vmap": {
+                "duration": 7
+            }
+        },
+        {
+            "event_id": "event_3",
+            "activity": "SendMsg",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86144",
+                "ID88846"
+            ],
+            "vmap": {
+                "duration": 7
+            }
+        },
+        {
+            "event_id": "event_4",
+            "activity": "Wait for\nConnection\nRequest",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID89496",
+                "ID89596"
+            ],
+            "vmap": {
+                "duration": 20
+            }
+        },
+        {
+            "event_id": "event_5",
+            "activity": "Wait for\nConnection\nRequest",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86144",
+                "ID89596"
+            ],
+            "vmap": {
+                "duration": 20
+            }
+        },
+        {
+            "event_id": "event_6",
+            "activity": "Receive\nCity Name",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86144",
+                "ID86225"
+            ],
+            "vmap": {
+                "duration": 9
+            }
+        },
+        {
+            "event_id": "event_7",
+            "activity": "Disconnect",
+            "timestamp": "2025-01-27T21:13:31.864303",
+            "omap": [
+                "ID86158",
+                "ID94616"
+            ],
+            "vmap": {
+                "duration": 9
+            }
+        }
+    ],
+    "objects": {
+        "ID86158": {
+            "type": "place",
+            "id": "Received\nCity Name"
+        },
+        "ID86225": {
+            "type": "transition",
+            "id": "Receive\nCity Name"
+        },
+        "ID88846": {
+            "type": "transition",
+            "id": "SendMsg"
+        },
+        "ID86144": {
+            "type": "place",
+            "id": "Connected"
+        },
+        "ID89496": {
+            "type": "place",
+            "id": "Ready"
+        },
+        "ID89596": {
+            "type": "transition",
+            "id": "Wait for\nConnection\nRequest"
+        },
+        "ID94616": {
+            "type": "transition",
+            "id": "Disconnect"
+        }
+    }
+}

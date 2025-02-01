@@ -1,0 +1,1410 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "case_id": "case_1",
+            "activity": "(InitSteelCoil)",
+            "started_at": "2025-01-30 16:13:27",
+            "finished_at": "2025-01-30 16:27:45",
+            "duration_seconds": 568,
+            "objects": [
+                "P2",
+                "(InitSteelCoil)"
+            ]
+        },
+        {
+            "case_id": "case_2",
+            "activity": "(InitSteelCoil)",
+            "started_at": "2025-01-30 16:25:36",
+            "finished_at": "2025-01-30 16:32:47",
+            "duration_seconds": 715,
+            "objects": [
+                "P3",
+                "(InitSteelCoil)"
+            ]
+        },
+        {
+            "case_id": "case_3",
+            "activity": "(InitSteelPin)",
+            "started_at": "2025-01-30 16:39:54",
+            "finished_at": "2025-01-30 16:54:40",
+            "duration_seconds": 951,
+            "objects": [
+                "P4",
+                "(InitSteelPin)"
+            ]
+        },
+        {
+            "case_id": "case_4",
+            "activity": "(InitSteelPin)",
+            "started_at": "2025-01-30 16:57:01",
+            "finished_at": "2025-01-30 17:14:34",
+            "duration_seconds": 910,
+            "objects": [
+                "P5",
+                "(InitSteelPin)"
+            ]
+        },
+        {
+            "case_id": "case_5",
+            "activity": "(InitSteelPin)",
+            "started_at": "2025-01-30 17:15:59",
+            "finished_at": "2025-01-30 17:31:19",
+            "duration_seconds": 937,
+            "objects": [
+                "P8",
+                "(InitSteelPin)"
+            ]
+        },
+        {
+            "case_id": "case_6",
+            "activity": "(InitSteelCoil)",
+            "started_at": "2025-01-30 17:27:08",
+            "finished_at": "2025-01-30 17:41:22",
+            "duration_seconds": 714,
+            "objects": [
+                "P1",
+                "(InitSteelCoil)"
+            ]
+        },
+        {
+            "case_id": "case_7",
+            "activity": "(InitSteelPin)",
+            "started_at": "2025-01-30 17:44:26",
+            "finished_at": "2025-01-30 17:52:12",
+            "duration_seconds": 923,
+            "objects": [
+                "P4",
+                "(InitSteelPin)"
+            ]
+        },
+        {
+            "case_id": "case_8",
+            "activity": "(InitSteelCoil)",
+            "started_at": "2025-01-30 18:01:21",
+            "finished_at": "2025-01-30 18:21:06",
+            "duration_seconds": 1178,
+            "objects": [
+                "P2",
+                "(InitSteelCoil)"
+            ]
+        },
+        {
+            "case_id": "case_9",
+            "activity": "Log\nInitialisation",
+            "started_at": "2025-01-30 18:12:43",
+            "finished_at": "2025-01-30 18:27:32",
+            "duration_seconds": 696,
+            "objects": [
+                "C1",
+                "Log\nInitialisation"
+            ]
+        },
+        {
+            "case_id": "case_10",
+            "activity": "API\nInitialisation",
+            "started_at": "2025-01-30 18:30:09",
+            "finished_at": "2025-01-30 18:41:42",
+            "duration_seconds": 763,
+            "objects": [
+                "C3",
+                "API\nInitialisation"
+            ]
+        },
+        {
+            "case_id": "case_11",
+            "activity": "Manufactoring\nProcess",
+            "started_at": "2025-01-30 18:44:03",
+            "finished_at": "2025-01-30 19:09:31",
+            "duration_seconds": 1409,
+            "objects": [
+                "P5",
+                "Manufactoring\nProcess"
+            ]
+        },
+        {
+            "case_id": "case_12",
+            "activity": "Manufactoring\nProcess",
+            "started_at": "2025-01-30 19:10:19",
+            "finished_at": "2025-01-30 19:25:13",
+            "duration_seconds": 1318,
+            "objects": [
+                "P3",
+                "Manufactoring\nProcess"
+            ]
+        },
+        {
+            "case_id": "case_13",
+            "activity": "Manufactoring\nProcess",
+            "started_at": "2025-01-30 19:25:28",
+            "finished_at": "2025-01-30 19:50:15",
+            "duration_seconds": 1222,
+            "objects": [
+                "P6",
+                "Manufactoring\nProcess"
+            ]
+        },
+        {
+            "case_id": "case_14",
+            "activity": "API\nInitialisation",
+            "started_at": "2025-01-30 19:38:56",
+            "finished_at": "2025-01-30 19:56:15",
+            "duration_seconds": 1050,
+            "objects": [
+                "C2",
+                "API\nInitialisation"
+            ]
+        },
+        {
+            "case_id": "case_15",
+            "activity": "Log\nInitialisation",
+            "started_at": "2025-01-30 19:44:50",
+            "finished_at": "2025-01-30 19:50:33",
+            "duration_seconds": 630,
+            "objects": [
+                "C2",
+                "Log\nInitialisation"
+            ]
+        },
+        {
+            "case_id": "case_16",
+            "activity": "API Close",
+            "started_at": "2025-01-30 19:59:08",
+            "finished_at": "2025-01-30 20:09:55",
+            "duration_seconds": 790,
+            "objects": [
+                "C4",
+                "API Close"
+            ]
+        },
+        {
+            "case_id": "case_17",
+            "activity": "SplitSheet",
+            "started_at": "2025-01-30 20:07:41",
+            "finished_at": "2025-01-30 20:19:35",
+            "duration_seconds": 504,
+            "objects": [
+                "M1",
+                "SplitSheet"
+            ]
+        },
+        {
+            "case_id": "case_18",
+            "activity": "SplitSheet",
+            "started_at": "2025-01-30 20:24:29",
+            "finished_at": "2025-01-30 20:31:04",
+            "duration_seconds": 478,
+            "objects": [
+                "M2",
+                "SplitSheet"
+            ]
+        },
+        {
+            "case_id": "case_19",
+            "activity": "HeatSheet",
+            "started_at": "2025-01-30 20:42:47",
+            "finished_at": "2025-01-30 20:48:05",
+            "duration_seconds": 491,
+            "objects": [
+                "M3",
+                "HeatSheet"
+            ]
+        },
+        {
+            "case_id": "case_20",
+            "activity": "HeatSheet",
+            "started_at": "2025-01-30 20:55:39",
+            "finished_at": "2025-01-30 21:04:36",
+            "duration_seconds": 788,
+            "objects": [
+                "M2",
+                "HeatSheet"
+            ]
+        },
+        {
+            "case_id": "case_21",
+            "activity": "FormSheet",
+            "started_at": "2025-01-30 21:09:33",
+            "finished_at": "2025-01-30 21:15:28",
+            "duration_seconds": 1146,
+            "objects": [
+                "M4",
+                "FormSheet"
+            ]
+        },
+        {
+            "case_id": "case_22",
+            "activity": "FormSheet",
+            "started_at": "2025-01-30 21:28:32",
+            "finished_at": "2025-01-30 21:40:41",
+            "duration_seconds": 1060,
+            "objects": [
+                "M3",
+                "FormSheet"
+            ]
+        },
+        {
+            "case_id": "case_23",
+            "activity": "CoatPart",
+            "started_at": "2025-01-30 21:47:41",
+            "finished_at": "2025-01-30 22:05:51",
+            "duration_seconds": 1190,
+            "objects": [
+                "M5",
+                "CoatPart"
+            ]
+        },
+        {
+            "case_id": "case_24",
+            "activity": "CoatPart",
+            "started_at": "2025-01-30 22:01:21",
+            "finished_at": "2025-01-30 22:11:50",
+            "duration_seconds": 1088,
+            "objects": [
+                "M4",
+                "CoatPart"
+            ]
+        },
+        {
+            "case_id": "case_25",
+            "activity": "CutPart",
+            "started_at": "2025-01-30 22:07:06",
+            "finished_at": "2025-01-30 22:17:31",
+            "duration_seconds": 861,
+            "objects": [
+                "M7",
+                "CutPart"
+            ]
+        },
+        {
+            "case_id": "case_26",
+            "activity": "CutPart",
+            "started_at": "2025-01-30 22:23:53",
+            "finished_at": "2025-01-30 22:33:17",
+            "duration_seconds": 526,
+            "objects": [
+                "M6",
+                "CutPart"
+            ]
+        },
+        {
+            "case_id": "case_27",
+            "activity": "CheckParts",
+            "started_at": "2025-01-30 22:30:41",
+            "finished_at": "2025-01-30 22:41:21",
+            "duration_seconds": 865,
+            "objects": [
+                "M9",
+                "CheckParts"
+            ]
+        },
+        {
+            "case_id": "case_28",
+            "activity": "CheckParts",
+            "started_at": "2025-01-30 22:49:33",
+            "finished_at": "2025-01-30 22:54:53",
+            "duration_seconds": 1168,
+            "objects": [
+                "M6",
+                "CheckParts"
+            ]
+        },
+        {
+            "case_id": "case_29",
+            "activity": "CheckParts",
+            "started_at": "2025-01-30 23:03:17",
+            "finished_at": "2025-01-30 23:19:28",
+            "duration_seconds": 334,
+            "objects": [
+                "M7",
+                "CheckParts"
+            ]
+        },
+        {
+            "case_id": "case_30",
+            "activity": "CheckParts",
+            "started_at": "2025-01-30 23:09:45",
+            "finished_at": "2025-01-30 23:17:24",
+            "duration_seconds": 435,
+            "objects": [
+                "M8",
+                "CheckParts"
+            ]
+        },
+        {
+            "case_id": "case_31",
+            "activity": "Assemble",
+            "started_at": "2025-01-30 23:27:16",
+            "finished_at": "2025-01-30 23:46:37",
+            "duration_seconds": 402,
+            "objects": [
+                "M11",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_32",
+            "activity": "Assemble",
+            "started_at": "2025-01-30 23:38:42",
+            "finished_at": "2025-01-30 23:49:01",
+            "duration_seconds": 702,
+            "objects": [
+                "M9",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_33",
+            "activity": "Assemble",
+            "started_at": "2025-01-30 23:47:11",
+            "finished_at": "2025-01-31 00:06:40",
+            "duration_seconds": 1136,
+            "objects": [
+                "M10",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_34",
+            "activity": "Assemble",
+            "started_at": "2025-01-30 23:56:28",
+            "finished_at": "2025-01-31 00:15:41",
+            "duration_seconds": 303,
+            "objects": [
+                "M8",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_35",
+            "activity": "Pack",
+            "started_at": "2025-01-31 00:13:28",
+            "finished_at": "2025-01-31 00:27:47",
+            "duration_seconds": 341,
+            "objects": [
+                "M11",
+                "Pack"
+            ]
+        },
+        {
+            "case_id": "case_36",
+            "activity": "Pack",
+            "started_at": "2025-01-31 00:30:40",
+            "finished_at": "2025-01-31 00:42:09",
+            "duration_seconds": 799,
+            "objects": [
+                "M12",
+                "Pack"
+            ]
+        },
+        {
+            "case_id": "case_37",
+            "activity": "SwitchPosition",
+            "started_at": "2025-01-31 00:35:47",
+            "finished_at": "2025-01-31 00:47:16",
+            "duration_seconds": 342,
+            "objects": [
+                "MA1",
+                "SwitchPosition"
+            ]
+        },
+        {
+            "case_id": "case_38",
+            "activity": "CheckParts",
+            "started_at": "2025-01-31 00:42:44",
+            "finished_at": "2025-01-31 00:48:51",
+            "duration_seconds": 419,
+            "objects": [
+                "MA3",
+                "CheckParts"
+            ]
+        },
+        {
+            "case_id": "case_39",
+            "activity": "SwitchPosition",
+            "started_at": "2025-01-31 00:51:28",
+            "finished_at": "2025-01-31 01:08:02",
+            "duration_seconds": 305,
+            "objects": [
+                "MA3",
+                "SwitchPosition"
+            ]
+        },
+        {
+            "case_id": "case_40",
+            "activity": "SplitSheet",
+            "started_at": "2025-01-31 01:01:59",
+            "finished_at": "2025-01-31 01:21:13",
+            "duration_seconds": 425,
+            "objects": [
+                "MA1",
+                "SplitSheet"
+            ]
+        },
+        {
+            "case_id": "case_41",
+            "activity": "CutPart",
+            "started_at": "2025-01-31 01:18:09",
+            "finished_at": "2025-01-31 01:33:07",
+            "duration_seconds": 518,
+            "objects": [
+                "M51",
+                "CutPart"
+            ]
+        },
+        {
+            "case_id": "case_42",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 01:36:14",
+            "finished_at": "2025-01-31 01:55:32",
+            "duration_seconds": 399,
+            "objects": [
+                "M51",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_43",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 01:45:14",
+            "finished_at": "2025-01-31 01:55:20",
+            "duration_seconds": 706,
+            "objects": [
+                "M5",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_44",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 01:54:33",
+            "finished_at": "2025-01-31 02:11:50",
+            "duration_seconds": 305,
+            "objects": [
+                "MA23",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_45",
+            "activity": "SwitchPosition",
+            "started_at": "2025-01-31 02:04:18",
+            "finished_at": "2025-01-31 02:10:16",
+            "duration_seconds": 774,
+            "objects": [
+                "MA23",
+                "SwitchPosition"
+            ]
+        },
+        {
+            "case_id": "case_46",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 02:21:01",
+            "finished_at": "2025-01-31 02:34:25",
+            "duration_seconds": 355,
+            "objects": [
+                "MA3",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_47",
+            "activity": "SplitSheet",
+            "started_at": "2025-01-31 02:31:14",
+            "finished_at": "2025-01-31 02:43:49",
+            "duration_seconds": 980,
+            "objects": [
+                "MA12",
+                "SplitSheet"
+            ]
+        },
+        {
+            "case_id": "case_48",
+            "activity": "SwitchPosition",
+            "started_at": "2025-01-31 02:41:34",
+            "finished_at": "2025-01-31 02:51:19",
+            "duration_seconds": 1166,
+            "objects": [
+                "MA12",
+                "SwitchPosition"
+            ]
+        },
+        {
+            "case_id": "case_49",
+            "activity": "(Load)",
+            "started_at": "2025-01-31 03:00:09",
+            "finished_at": "2025-01-31 03:18:19",
+            "duration_seconds": 823,
+            "objects": [
+                "M1",
+                "(Load)"
+            ]
+        },
+        {
+            "case_id": "case_50",
+            "activity": "(Load)",
+            "started_at": "2025-01-31 03:08:45",
+            "finished_at": "2025-01-31 03:23:45",
+            "duration_seconds": 604,
+            "objects": [
+                "S2",
+                "(Load)"
+            ]
+        },
+        {
+            "case_id": "case_51",
+            "activity": "(Unload)",
+            "started_at": "2025-01-31 03:28:09",
+            "finished_at": "2025-01-31 03:35:53",
+            "duration_seconds": 461,
+            "objects": [
+                "S2",
+                "(Unload)"
+            ]
+        },
+        {
+            "case_id": "case_52",
+            "activity": "(Unload)",
+            "started_at": "2025-01-31 03:45:50",
+            "finished_at": "2025-01-31 03:53:14",
+            "duration_seconds": 376,
+            "objects": [
+                "S1",
+                "(Unload)"
+            ]
+        },
+        {
+            "case_id": "case_53",
+            "activity": "(Load)",
+            "started_at": "2025-01-31 03:52:03",
+            "finished_at": "2025-01-31 03:58:32",
+            "duration_seconds": 1164,
+            "objects": [
+                "S1",
+                "(Load)"
+            ]
+        },
+        {
+            "case_id": "case_54",
+            "activity": "(Unload)",
+            "started_at": "2025-01-31 04:10:32",
+            "finished_at": "2025-01-31 04:29:19",
+            "duration_seconds": 1090,
+            "objects": [
+                "S3",
+                "(Unload)"
+            ]
+        },
+        {
+            "case_id": "case_55",
+            "activity": "SplitSheet1",
+            "started_at": "2025-01-31 04:30:05",
+            "finished_at": "2025-01-31 04:43:28",
+            "duration_seconds": 380,
+            "objects": [
+                "S2",
+                "SplitSheet1"
+            ]
+        },
+        {
+            "case_id": "case_56",
+            "activity": "SplitSheet1",
+            "started_at": "2025-01-31 04:47:27",
+            "finished_at": "2025-01-31 05:01:42",
+            "duration_seconds": 309,
+            "objects": [
+                "S2",
+                "SplitSheet1"
+            ]
+        },
+        {
+            "case_id": "case_57",
+            "activity": "SplitSheet1",
+            "started_at": "2025-01-31 05:00:02",
+            "finished_at": "2025-01-31 05:19:53",
+            "duration_seconds": 874,
+            "objects": [
+                "S4",
+                "SplitSheet1"
+            ]
+        },
+        {
+            "case_id": "case_58",
+            "activity": "SplitSheet1",
+            "started_at": "2025-01-31 05:06:54",
+            "finished_at": "2025-01-31 05:21:03",
+            "duration_seconds": 575,
+            "objects": [
+                "S4",
+                "SplitSheet1"
+            ]
+        },
+        {
+            "case_id": "case_59",
+            "activity": "SplitSheet1",
+            "started_at": "2025-01-31 05:16:10",
+            "finished_at": "2025-01-31 05:27:50",
+            "duration_seconds": 565,
+            "objects": [
+                "M2",
+                "SplitSheet1"
+            ]
+        },
+        {
+            "case_id": "case_60",
+            "activity": "(Load)",
+            "started_at": "2025-01-31 05:23:06",
+            "finished_at": "2025-01-31 05:34:02",
+            "duration_seconds": 602,
+            "objects": [
+                "MA1",
+                "(Load)"
+            ]
+        },
+        {
+            "case_id": "case_61",
+            "activity": "(Load)",
+            "started_at": "2025-01-31 05:36:22",
+            "finished_at": "2025-01-31 05:53:49",
+            "duration_seconds": 819,
+            "objects": [
+                "MA12",
+                "(Load)"
+            ]
+        },
+        {
+            "case_id": "case_62",
+            "activity": "HeatSheet",
+            "started_at": "2025-01-31 05:53:57",
+            "finished_at": "2025-01-31 06:01:10",
+            "duration_seconds": 1189,
+            "objects": [
+                "M3",
+                "HeatSheet"
+            ]
+        },
+        {
+            "case_id": "case_63",
+            "activity": "HeatSheet",
+            "started_at": "2025-01-31 06:08:13",
+            "finished_at": "2025-01-31 06:22:39",
+            "duration_seconds": 777,
+            "objects": [
+                "M2",
+                "HeatSheet"
+            ]
+        },
+        {
+            "case_id": "case_64",
+            "activity": "FormSheet",
+            "started_at": "2025-01-31 06:25:51",
+            "finished_at": "2025-01-31 06:43:49",
+            "duration_seconds": 890,
+            "objects": [
+                "M4",
+                "FormSheet"
+            ]
+        },
+        {
+            "case_id": "case_65",
+            "activity": "FormSheet",
+            "started_at": "2025-01-31 06:42:17",
+            "finished_at": "2025-01-31 07:00:32",
+            "duration_seconds": 303,
+            "objects": [
+                "M3",
+                "FormSheet"
+            ]
+        },
+        {
+            "case_id": "case_66",
+            "activity": "CutFemale",
+            "started_at": "2025-01-31 07:01:16",
+            "finished_at": "2025-01-31 07:16:58",
+            "duration_seconds": 932,
+            "objects": [
+                "M7",
+                "CutFemale"
+            ]
+        },
+        {
+            "case_id": "case_67",
+            "activity": "CutFemale",
+            "started_at": "2025-01-31 07:20:22",
+            "finished_at": "2025-01-31 07:38:45",
+            "duration_seconds": 1110,
+            "objects": [
+                "C2",
+                "CutFemale"
+            ]
+        },
+        {
+            "case_id": "case_68",
+            "activity": "CutMale",
+            "started_at": "2025-01-31 07:29:17",
+            "finished_at": "2025-01-31 07:47:11",
+            "duration_seconds": 1133,
+            "objects": [
+                "C2",
+                "CutMale"
+            ]
+        },
+        {
+            "case_id": "case_69",
+            "activity": "CutMale",
+            "started_at": "2025-01-31 07:47:29",
+            "finished_at": "2025-01-31 08:05:41",
+            "duration_seconds": 924,
+            "objects": [
+                "C1",
+                "CutMale"
+            ]
+        },
+        {
+            "case_id": "case_70",
+            "activity": "CutFemale",
+            "started_at": "2025-01-31 08:00:18",
+            "finished_at": "2025-01-31 08:15:01",
+            "duration_seconds": 386,
+            "objects": [
+                "C1",
+                "CutFemale"
+            ]
+        },
+        {
+            "case_id": "case_71",
+            "activity": "CutMale",
+            "started_at": "2025-01-31 08:17:35",
+            "finished_at": "2025-01-31 08:24:57",
+            "duration_seconds": 378,
+            "objects": [
+                "M6",
+                "CutMale"
+            ]
+        },
+        {
+            "case_id": "case_72",
+            "activity": "(UnBatch)",
+            "started_at": "2025-01-31 08:31:29",
+            "finished_at": "2025-01-31 08:40:26",
+            "duration_seconds": 485,
+            "objects": [
+                "M51",
+                "(UnBatch)"
+            ]
+        },
+        {
+            "case_id": "case_73",
+            "activity": "(UnBatch)",
+            "started_at": "2025-01-31 08:42:18",
+            "finished_at": "2025-01-31 08:52:10",
+            "duration_seconds": 615,
+            "objects": [
+                "M51",
+                "(UnBatch)"
+            ]
+        },
+        {
+            "case_id": "case_74",
+            "activity": "(UnBatch)",
+            "started_at": "2025-01-31 08:49:16",
+            "finished_at": "2025-01-31 09:05:43",
+            "duration_seconds": 1006,
+            "objects": [
+                "Cu1",
+                "(UnBatch)"
+            ]
+        },
+        {
+            "case_id": "case_75",
+            "activity": "CutMale",
+            "started_at": "2025-01-31 09:05:45",
+            "finished_at": "2025-01-31 09:16:23",
+            "duration_seconds": 774,
+            "objects": [
+                "Cu1",
+                "CutMale"
+            ]
+        },
+        {
+            "case_id": "case_76",
+            "activity": "CutFemale",
+            "started_at": "2025-01-31 09:11:57",
+            "finished_at": "2025-01-31 09:22:19",
+            "duration_seconds": 918,
+            "objects": [
+                "Cu1",
+                "CutFemale"
+            ]
+        },
+        {
+            "case_id": "case_77",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 09:23:07",
+            "finished_at": "2025-01-31 09:41:42",
+            "duration_seconds": 985,
+            "objects": [
+                "M6",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_78",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 09:42:35",
+            "finished_at": "2025-01-31 10:02:22",
+            "duration_seconds": 408,
+            "objects": [
+                "M8",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_79",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 09:53:03",
+            "finished_at": "2025-01-31 10:08:50",
+            "duration_seconds": 657,
+            "objects": [
+                "M7",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_80",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 10:06:33",
+            "finished_at": "2025-01-31 10:25:00",
+            "duration_seconds": 466,
+            "objects": [
+                "M9",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_81",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 10:17:52",
+            "finished_at": "2025-01-31 10:28:07",
+            "duration_seconds": 965,
+            "objects": [
+                "H2",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_82",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 10:24:44",
+            "finished_at": "2025-01-31 10:42:08",
+            "duration_seconds": 1030,
+            "objects": [
+                "H1",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_83",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 10:43:52",
+            "finished_at": "2025-01-31 10:51:40",
+            "duration_seconds": 583,
+            "objects": [
+                "MA3",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_84",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 11:00:15",
+            "finished_at": "2025-01-31 11:18:58",
+            "duration_seconds": 1153,
+            "objects": [
+                "MA3",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_85",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 11:13:34",
+            "finished_at": "2025-01-31 11:24:38",
+            "duration_seconds": 1047,
+            "objects": [
+                "QueueF",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_86",
+            "activity": "CheckFemalePart",
+            "started_at": "2025-01-31 11:31:05",
+            "finished_at": "2025-01-31 11:47:39",
+            "duration_seconds": 473,
+            "objects": [
+                "QueueF",
+                "CheckFemalePart"
+            ]
+        },
+        {
+            "case_id": "case_87",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 11:50:40",
+            "finished_at": "2025-01-31 12:06:12",
+            "duration_seconds": 775,
+            "objects": [
+                "QueuM",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_88",
+            "activity": "CheckMalePart",
+            "started_at": "2025-01-31 12:08:31",
+            "finished_at": "2025-01-31 12:16:52",
+            "duration_seconds": 727,
+            "objects": [
+                "QueuM",
+                "CheckMalePart"
+            ]
+        },
+        {
+            "case_id": "case_89",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 12:14:20",
+            "finished_at": "2025-01-31 12:20:38",
+            "duration_seconds": 603,
+            "objects": [
+                "M10",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_90",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 12:34:11",
+            "finished_at": "2025-01-31 12:47:55",
+            "duration_seconds": 318,
+            "objects": [
+                "M9",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_91",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 12:44:29",
+            "finished_at": "2025-01-31 12:52:00",
+            "duration_seconds": 638,
+            "objects": [
+                "P5",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_92",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 12:49:47",
+            "finished_at": "2025-01-31 13:08:44",
+            "duration_seconds": 511,
+            "objects": [
+                "M8",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_93",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 13:01:15",
+            "finished_at": "2025-01-31 13:18:11",
+            "duration_seconds": 792,
+            "objects": [
+                "QuF",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_94",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 13:08:19",
+            "finished_at": "2025-01-31 13:27:12",
+            "duration_seconds": 711,
+            "objects": [
+                "QuF",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_95",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 13:21:40",
+            "finished_at": "2025-01-31 13:41:21",
+            "duration_seconds": 834,
+            "objects": [
+                "QuM",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_96",
+            "activity": "Assemble",
+            "started_at": "2025-01-31 13:41:31",
+            "finished_at": "2025-01-31 13:55:42",
+            "duration_seconds": 940,
+            "objects": [
+                "QuM",
+                "Assemble"
+            ]
+        },
+        {
+            "case_id": "case_97",
+            "activity": "PackHinges",
+            "started_at": "2025-01-31 14:00:45",
+            "finished_at": "2025-01-31 14:06:54",
+            "duration_seconds": 556,
+            "objects": [
+                "P6",
+                "PackHinges"
+            ]
+        },
+        {
+            "case_id": "case_98",
+            "activity": "(Buffer)",
+            "started_at": "2025-01-31 14:13:54",
+            "finished_at": "2025-01-31 14:21:53",
+            "duration_seconds": 843,
+            "objects": [
+                "M10",
+                "(Buffer)"
+            ]
+        },
+        {
+            "case_id": "case_99",
+            "activity": "(Buffer)",
+            "started_at": "2025-01-31 14:25:49",
+            "finished_at": "2025-01-31 14:39:05",
+            "duration_seconds": 1184,
+            "objects": [
+                "P1",
+                "(Buffer)"
+            ]
+        },
+        {
+            "case_id": "case_100",
+            "activity": "PackHinges",
+            "started_at": "2025-01-31 14:42:50",
+            "finished_at": "2025-01-31 15:01:47",
+            "duration_seconds": 1048,
+            "objects": [
+                "P1",
+                "PackHinges"
+            ]
+        },
+        {
+            "case_id": "case_101",
+            "activity": "PackHinges",
+            "started_at": "2025-01-31 14:53:34",
+            "finished_at": "2025-01-31 15:02:00",
+            "duration_seconds": 790,
+            "objects": [
+                "P1",
+                "PackHinges"
+            ]
+        },
+        {
+            "case_id": "case_102",
+            "activity": "(Buffer)",
+            "started_at": "2025-01-31 15:09:54",
+            "finished_at": "2025-01-31 15:15:14",
+            "duration_seconds": 436,
+            "objects": [
+                "P1",
+                "(Buffer)"
+            ]
+        },
+        {
+            "case_id": "case_103",
+            "activity": "PackHinges",
+            "started_at": "2025-01-31 15:27:25",
+            "finished_at": "2025-01-31 15:37:29",
+            "duration_seconds": 402,
+            "objects": [
+                "PackHinges"
+            ]
+        },
+        {
+            "case_id": "case_104",
+            "activity": "PackHinges",
+            "started_at": "2025-01-31 15:33:54",
+            "finished_at": "2025-01-31 15:42:34",
+            "duration_seconds": 972,
+            "objects": [
+                "PackHinges"
+            ]
+        },
+        {
+            "case_id": "case_105",
+            "activity": "StartDay",
+            "started_at": "2025-01-31 15:40:42",
+            "finished_at": "2025-01-31 15:43:28",
+            "duration_seconds": 117,
+            "objects": [
+                "MA1",
+                "StartDay"
+            ]
+        },
+        {
+            "case_id": "case_106",
+            "activity": "StartDay",
+            "started_at": "2025-01-31 15:42:19",
+            "finished_at": "2025-01-31 15:47:14",
+            "duration_seconds": 114,
+            "objects": [
+                "MA0",
+                "StartDay"
+            ]
+        },
+        {
+            "case_id": "case_107",
+            "activity": "GoToW2",
+            "started_at": "2025-01-31 15:46:17",
+            "finished_at": "2025-01-31 16:03:59",
+            "duration_seconds": 875,
+            "objects": [
+                "MA3",
+                "GoToW2"
+            ]
+        },
+        {
+            "case_id": "case_108",
+            "activity": "GoToW2",
+            "started_at": "2025-01-31 15:52:56",
+            "finished_at": "2025-01-31 16:10:57",
+            "duration_seconds": 917,
+            "objects": [
+                "MA23",
+                "GoToW2"
+            ]
+        },
+        {
+            "case_id": "case_109",
+            "activity": "WaitNextDay",
+            "started_at": "2025-01-31 16:03:07",
+            "finished_at": "2025-01-31 16:21:21",
+            "duration_seconds": 1174,
+            "objects": [
+                "MA0",
+                "WaitNextDay"
+            ]
+        },
+        {
+            "case_id": "case_110",
+            "activity": "DoInits",
+            "started_at": "2025-01-31 16:11:49",
+            "finished_at": "2025-01-31 16:31:08",
+            "duration_seconds": 679,
+            "objects": [
+                "MA12",
+                "DoInits"
+            ]
+        },
+        {
+            "case_id": "case_111",
+            "activity": "WaitNextDay",
+            "started_at": "2025-01-31 16:22:24",
+            "finished_at": "2025-01-31 16:37:07",
+            "duration_seconds": 1019,
+            "objects": [
+                "MA3",
+                "WaitNextDay"
+            ]
+        },
+        {
+            "case_id": "case_112",
+            "activity": "GoToW2",
+            "started_at": "2025-01-31 16:35:52",
+            "finished_at": "2025-01-31 16:41:18",
+            "duration_seconds": 492,
+            "objects": [
+                "Trig2",
+                "GoToW2"
+            ]
+        },
+        {
+            "case_id": "case_113",
+            "activity": "DoInits",
+            "started_at": "2025-01-31 16:43:01",
+            "finished_at": "2025-01-31 16:50:58",
+            "duration_seconds": 914,
+            "objects": [
+                "MA3",
+                "DoInits"
+            ]
+        },
+        {
+            "case_id": "case_114",
+            "activity": "LunchTime",
+            "started_at": "2025-01-31 16:55:29",
+            "finished_at": "2025-01-31 17:01:23",
+            "duration_seconds": 394,
+            "objects": [
+                "MA3",
+                "LunchTime"
+            ]
+        },
+        {
+            "case_id": "case_115",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 17:10:48",
+            "finished_at": "2025-01-31 17:24:57",
+            "duration_seconds": 456,
+            "objects": [
+                "M51",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_116",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 17:23:36",
+            "finished_at": "2025-01-31 17:38:49",
+            "duration_seconds": 748,
+            "objects": [
+                "M5",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_117",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 17:39:27",
+            "finished_at": "2025-01-31 17:46:13",
+            "duration_seconds": 633,
+            "objects": [
+                "MA23",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_118",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 17:57:32",
+            "finished_at": "2025-01-31 18:05:30",
+            "duration_seconds": 321,
+            "objects": [
+                "MA3",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_119",
+            "activity": "MoveParts",
+            "started_at": "2025-01-31 18:10:02",
+            "finished_at": "2025-01-31 18:17:15",
+            "duration_seconds": 490,
+            "objects": [
+                "M5",
+                "MoveParts"
+            ]
+        },
+        {
+            "case_id": "case_120",
+            "activity": "(DelEmty)",
+            "started_at": "2025-01-31 18:24:10",
+            "finished_at": "2025-01-31 18:34:48",
+            "duration_seconds": 1061,
+            "objects": [
+                "M51",
+                "(DelEmty)"
+            ]
+        },
+        {
+            "case_id": "case_121",
+            "activity": "CoatPart",
+            "started_at": "2025-01-31 18:32:37",
+            "finished_at": "2025-01-31 18:41:54",
+            "duration_seconds": 617,
+            "objects": [
+                "M4",
+                "CoatPart"
+            ]
+        },
+        {
+            "case_id": "case_122",
+            "activity": "CoatPart",
+            "started_at": "2025-01-31 18:52:03",
+            "finished_at": "2025-01-31 19:05:57",
+            "duration_seconds": 316,
+            "objects": [
+                "CP1",
+                "CoatPart"
+            ]
+        },
+        {
+            "case_id": "case_123",
+            "activity": "(BufferParts)",
+            "started_at": "2025-01-31 19:11:33",
+            "finished_at": "2025-01-31 19:26:15",
+            "duration_seconds": 1019,
+            "objects": [
+                "CP1",
+                "(BufferParts)"
+            ]
+        },
+        {
+            "case_id": "case_124",
+            "activity": "(BufferParts)",
+            "started_at": "2025-01-31 19:16:49",
+            "finished_at": "2025-01-31 19:32:26",
+            "duration_seconds": 914,
+            "objects": [
+                "M5",
+                "(BufferParts)"
+            ]
+        },
+        {
+            "case_id": "case_125",
+            "activity": "(BufferParts)",
+            "started_at": "2025-01-31 19:30:59",
+            "finished_at": "2025-01-31 19:44:56",
+            "duration_seconds": 1008,
+            "objects": [
+                "M5",
+                "(BufferParts)"
+            ]
+        },
+        {
+            "case_id": "case_126",
+            "activity": "(BufferParts)",
+            "started_at": "2025-01-31 19:44:55",
+            "finished_at": "2025-01-31 19:50:04",
+            "duration_seconds": 919,
+            "objects": [
+                "Trigger2",
+                "(BufferParts)"
+            ]
+        },
+        {
+            "case_id": "case_127",
+            "activity": "FormSteelSheet",
+            "started_at": "2025-01-31 19:56:51",
+            "finished_at": "2025-01-31 20:06:56",
+            "duration_seconds": 953,
+            "objects": [
+                "Input",
+                "FormSteelSheet"
+            ]
+        },
+        {
+            "case_id": "case_128",
+            "activity": "FormSteelSheet",
+            "started_at": "2025-01-31 20:13:21",
+            "finished_at": "2025-01-31 20:31:52",
+            "duration_seconds": 667,
+            "objects": [
+                "FormSteelSheet"
+            ]
+        }
+    ]
+}

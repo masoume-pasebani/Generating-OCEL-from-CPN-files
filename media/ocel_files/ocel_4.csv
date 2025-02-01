@@ -1,0 +1,43 @@
+case_id,activity,started_at,finished_at,objects,object_ids
+case_1,"Send Grid
+Coordinates",2025-01-27 21:30:46,2025-01-27 21:43:46,"Wait for
+Result;token_27;Send Grid
+Coordinates",ID86158;token_27;ID86225
+case_2,"Receive
+Result",2025-01-27 21:30:46,2025-01-27 21:50:46,"Wait for
+Result;token_2;token_92;Receive
+Result",ID86158;token_2;token_92;ID88846
+case_3,"Connect to
+Python Weather
+Service",2025-01-27 21:30:46,2025-01-27 21:35:46,"Ready;token_98;token_52;Connect to
+Python Weather
+Service",ID89496;token_98;token_52;ID89596
+case_4,"Connect to
+Python Weather
+Service",2025-01-27 21:30:46,2025-01-27 21:38:46,"Connected;token_50;token_94;token_63;Connect to
+Python Weather
+Service",ID86144;token_50;token_94;token_63;ID89596
+case_5,"Send Grid
+Coordinates",2025-01-27 21:30:46,2025-01-27 21:39:46,"Connected;token_25;token_19;token_11;Send Grid
+Coordinates",ID86144;token_25;token_19;token_11;ID86225
+case_6,"Receive
+Result",2025-01-27 21:30:46,2025-01-27 21:38:46,"Result;token_10;token_77;Receive
+Result",ID1428424713;token_10;token_77;ID88846
+case_7,"Send Grid
+Coordinates",2025-01-27 21:30:46,2025-01-27 21:45:46,"GridXY;token_68;token_15;token_69;Send Grid
+Coordinates",ID1448501350;token_68;token_15;token_69;ID86225
+case_8,"Turn On
+Cooling",2025-01-27 21:30:46,2025-01-27 21:55:46,"Result;token_6;token_87;token_78;Turn On
+Cooling",ID1428424713;token_6;token_87;token_78;ID1448506778
+case_9,"Turn On
+Heating",2025-01-27 21:30:46,2025-01-27 21:38:46,"Result;token_70;Turn On
+Heating",ID1428424713;token_70;ID1448507541
+case_10,"Turn On
+Heating",2025-01-27 21:30:46,2025-01-27 22:00:46,"Connected;token_1;token_35;token_16;Turn On
+Heating",ID86144;token_1;token_35;token_16;ID1448507541
+case_11,"Turn On
+Cooling",2025-01-27 21:30:46,2025-01-27 21:40:46,"Connected;token_23;token_71;Turn On
+Cooling",ID86144;token_23;token_71;ID1448506778
+case_12,"Close 
+Connection",2025-01-27 21:30:46,2025-01-27 21:59:46,"Connected;token_34;token_20;Close 
+Connection",ID86144;token_34;token_20;ID1428429147

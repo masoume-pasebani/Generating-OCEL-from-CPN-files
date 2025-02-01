@@ -1,0 +1,23 @@
+case_id,activity,started_at,finished_at,objects,object_ids
+case_1,"Receive
+City Name",2025-01-27 21:38:38,2025-01-27 21:50:38,"Received
+City Name;token_85;token_32;token_32;Receive
+City Name",ID86158;token_85;token_32;token_32;ID86225
+case_2,SendMsg,2025-01-27 21:38:38,2025-01-27 21:44:38,"Received
+City Name;token_21;token_55;token_67;SendMsg",ID86158;token_21;token_55;token_67;ID88846
+case_3,SendMsg,2025-01-27 21:38:38,2025-01-27 21:59:38,Connected;token_33;SendMsg,ID86144;token_33;ID88846
+case_4,"Wait for
+Connection
+Request",2025-01-27 21:38:38,2025-01-27 22:11:38,"Ready;token_67;Wait for
+Connection
+Request",ID89496;token_67;ID89596
+case_5,"Wait for
+Connection
+Request",2025-01-27 21:38:38,2025-01-27 21:44:38,"Connected;token_85;token_64;Wait for
+Connection
+Request",ID86144;token_85;token_64;ID89596
+case_6,"Receive
+City Name",2025-01-27 21:38:38,2025-01-27 21:44:38,"Connected;token_25;Receive
+City Name",ID86144;token_25;ID86225
+case_7,Disconnect,2025-01-27 21:38:38,2025-01-27 21:53:38,"Received
+City Name;token_96;token_20;token_48;Disconnect",ID86158;token_96;token_20;token_48;ID94616

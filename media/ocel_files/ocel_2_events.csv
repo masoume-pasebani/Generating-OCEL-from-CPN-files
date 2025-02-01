@@ -1,0 +1,23 @@
+event_id,activity,timestamp,duration,objects,object_ids
+event_1,"Receive
+City Name",2025-01-27 22:24:33,35.0,"Received
+City Name;Receive
+City Name",ID86158;ID86225
+event_2,SendMsg,2025-01-27 22:25:08,35.0,"Received
+City Name;SendMsg",ID86158;ID88846
+event_3,SendMsg,2025-01-27 22:25:43,35.0,Connected;SendMsg,ID86144;ID88846
+event_4,"Wait for
+Connection
+Request",2025-01-27 22:26:18,35.0,"Ready;Wait for
+Connection
+Request",ID89496;ID89596
+event_5,"Wait for
+Connection
+Request",2025-01-27 22:26:53,35.0,"Connected;Wait for
+Connection
+Request",ID86144;ID89596
+event_6,"Receive
+City Name",2025-01-27 22:27:28,35.0,"Connected;Receive
+City Name",ID86144;ID86225
+event_7,Disconnect,2025-01-27 22:28:03,35.0,"Received
+City Name;Disconnect",ID86158;ID94616

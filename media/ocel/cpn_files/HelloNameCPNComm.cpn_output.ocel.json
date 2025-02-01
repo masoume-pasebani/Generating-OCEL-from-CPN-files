@@ -1,0 +1,13 @@
+
+    {
+        "ocel:global-log": {"ocel:version": "1.0"},
+        "ocel:events": {
+            "e1": {"ocel:activity": "A", "ocel:timestamp": "2025-01-01T10:00:00Z", "ocel:omap": ["o1"]},
+            "e2": {"ocel:activity": "B", "ocel:timestamp": "2025-01-01T11:00:00Z", "ocel:omap": ["o1", "o2"]}
+        },
+        "ocel:objects": {
+            "o1": {"ocel:type": "Order"},
+            "o2": {"ocel:type": "Item"}
+        }
+    }
+    

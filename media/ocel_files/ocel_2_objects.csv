@@ -1,0 +1,12 @@
+object_id,name,type
+ID86158,"Received
+City Name",Place
+ID86225,"Receive
+City Name",Transition
+ID88846,SendMsg,Transition
+ID86144,Connected,Place
+ID89496,Ready,Place
+ID89596,"Wait for
+Connection
+Request",Transition
+ID94616,Disconnect,Transition

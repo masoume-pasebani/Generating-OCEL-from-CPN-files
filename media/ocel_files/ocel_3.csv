@@ -1,0 +1,29 @@
+case_id,activity,started_at,finished_at,duration_seconds,objects
+case_1,"Send Next
+City",2025-01-31 09:43:19,2025-01-31 09:59:20,1125,"['Wait for\nResult', 'Send Next\nCity']"
+case_2,"Receive
+Result",2025-01-31 09:52:29,2025-01-31 09:58:38,669,"['Wait for\nResult', 'Receive\nResult']"
+case_3,"Connect to
+Python Process",2025-01-31 10:10:39,2025-01-31 10:30:47,797,"['Ready', 'Connect to\nPython Process']"
+case_4,"Connect to
+Python Process",2025-01-31 10:28:46,2025-01-31 10:45:32,1252,"['Connected', 'Connect to\nPython Process']"
+case_5,"Send Next
+City",2025-01-31 10:48:04,2025-01-31 10:59:22,664,"['Connected', 'Send Next\nCity']"
+case_6,"Receive
+Result",2025-01-31 11:05:45,2025-01-31 11:25:04,365,"['Result', 'Receive\nResult']"
+case_7,"Receive
+Result",2025-01-31 11:21:54,2025-01-31 11:31:29,738,"['Connected', 'Receive\nResult']"
+case_8,"Receive
+Result",2025-01-31 11:32:40,2025-01-31 11:46:13,1155,"['Result', 'Receive\nResult']"
+case_9,"Send Next
+City",2025-01-31 11:38:30,2025-01-31 11:54:28,745,"['Cities', 'Send Next\nCity']"
+case_10,"Done
+Close 
+Connection",2025-01-31 11:47:32,2025-01-31 11:54:29,783,"['Cities', 'Done\nClose \nConnection']"
+case_11,"Send Next
+City",2025-01-31 12:05:51,2025-01-31 12:21:17,823,"['Cities', 'Send Next\nCity']"
+case_12,"Connect to
+Python Process",2025-01-31 12:14:51,2025-01-31 12:28:18,1076,"['Cities', 'Connect to\nPython Process']"
+case_13,"Done
+Close 
+Connection",2025-01-31 12:29:17,2025-01-31 12:37:57,750,"['Connected', 'Done\nClose \nConnection']"

@@ -1,0 +1,148 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "case_id": "case_1",
+            "activity": "Send Next\nCity",
+            "started_at": "2025-01-31 09:37:49",
+            "finished_at": "2025-01-31 09:54:39",
+            "duration_seconds": 516,
+            "objects": [
+                "Wait for\nResult",
+                "Send Next\nCity"
+            ]
+        },
+        {
+            "case_id": "case_2",
+            "activity": "Receive\nResult",
+            "started_at": "2025-01-31 09:44:17",
+            "finished_at": "2025-01-31 09:51:31",
+            "duration_seconds": 436,
+            "objects": [
+                "Wait for\nResult",
+                "Receive\nResult"
+            ]
+        },
+        {
+            "case_id": "case_3",
+            "activity": "Connect to\nPython Process",
+            "started_at": "2025-01-31 09:56:37",
+            "finished_at": "2025-01-31 10:11:38",
+            "duration_seconds": 1195,
+            "objects": [
+                "Ready",
+                "Connect to\nPython Process"
+            ]
+        },
+        {
+            "case_id": "case_4",
+            "activity": "Connect to\nPython Process",
+            "started_at": "2025-01-31 10:06:51",
+            "finished_at": "2025-01-31 10:36:10",
+            "duration_seconds": 652,
+            "objects": [
+                "Connected",
+                "Connect to\nPython Process"
+            ]
+        },
+        {
+            "case_id": "case_5",
+            "activity": "Send Next\nCity",
+            "started_at": "2025-01-31 10:27:12",
+            "finished_at": "2025-01-31 10:45:21",
+            "duration_seconds": 581,
+            "objects": [
+                "Connected",
+                "Send Next\nCity"
+            ]
+        },
+        {
+            "case_id": "case_6",
+            "activity": "Receive\nResult",
+            "started_at": "2025-01-31 10:46:55",
+            "finished_at": "2025-01-31 11:01:45",
+            "duration_seconds": 1189,
+            "objects": [
+                "Result",
+                "Receive\nResult"
+            ]
+        },
+        {
+            "case_id": "case_7",
+            "activity": "Receive\nResult",
+            "started_at": "2025-01-31 11:06:33",
+            "finished_at": "2025-01-31 11:15:05",
+            "duration_seconds": 735,
+            "objects": [
+                "Connected",
+                "Receive\nResult"
+            ]
+        },
+        {
+            "case_id": "case_8",
+            "activity": "Receive\nResult",
+            "started_at": "2025-01-31 11:18:38",
+            "finished_at": "2025-01-31 11:23:54",
+            "duration_seconds": 552,
+            "objects": [
+                "Result",
+                "Receive\nResult"
+            ]
+        },
+        {
+            "case_id": "case_9",
+            "activity": "Send Next\nCity",
+            "started_at": "2025-01-31 11:32:41",
+            "finished_at": "2025-01-31 11:45:24",
+            "duration_seconds": 557,
+            "objects": [
+                "Cities",
+                "Send Next\nCity"
+            ]
+        },
+        {
+            "case_id": "case_10",
+            "activity": "Done\nClose \nConnection",
+            "started_at": "2025-01-31 11:52:32",
+            "finished_at": "2025-01-31 12:04:02",
+            "duration_seconds": 770,
+            "objects": [
+                "Cities",
+                "Done\nClose \nConnection"
+            ]
+        },
+        {
+            "case_id": "case_11",
+            "activity": "Send Next\nCity",
+            "started_at": "2025-01-31 12:08:28",
+            "finished_at": "2025-01-31 12:20:18",
+            "duration_seconds": 1052,
+            "objects": [
+                "Cities",
+                "Send Next\nCity"
+            ]
+        },
+        {
+            "case_id": "case_12",
+            "activity": "Connect to\nPython Process",
+            "started_at": "2025-01-31 12:18:39",
+            "finished_at": "2025-01-31 12:39:50",
+            "duration_seconds": 716,
+            "objects": [
+                "Cities",
+                "Connect to\nPython Process"
+            ]
+        },
+        {
+            "case_id": "case_13",
+            "activity": "Done\nClose \nConnection",
+            "started_at": "2025-01-31 12:30:52",
+            "finished_at": "2025-01-31 12:44:47",
+            "duration_seconds": 1168,
+            "objects": [
+                "Connected",
+                "Done\nClose \nConnection"
+            ]
+        }
+    ]
+}
