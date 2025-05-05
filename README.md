@@ -60,25 +60,3 @@ You can visualize the OCEL and inspect the events.
 File Format
 The project expects the CPN files to be in XML format. Ensure that the CPN models are well-structured and follow the standard CPN XML format for successful parsing and event log generation.
 
-File Structure
-Here’s a breakdown of the project structure:
-
-Generating-OCEL-from-CPN-files/
-│
-├── cpn_app/               # Django app for processing CPN files
-│   ├── migrations/        # Database migration files
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py           # Forms for file upload
-│   ├── models.py          # Model for storing event logs and CPN data
-│   ├── views.py           # Views for file processing and OCEL generation
-│   ├── urls.py            # URL routing for CPN file upload and OCEL views
-│   └── templates/
-│       └── cpn_app/       # Templates for frontend
-│           ├── index.html # Main upload page template
-│           └── ocel_view.html # Template for visualizing OCEL
-│
-├── manage.py              # Django manage script
-├── requirements.txt       # Project dependencies
-└── README.md              # Project README
