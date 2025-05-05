@@ -63,8 +63,6 @@ The project expects the CPN files to be in XML format. Ensure that the CPN model
 File Structure
 Here’s a breakdown of the project structure:
 
-graphql
-Copy code
 Generating-OCEL-from-CPN-files/
 │
 ├── cpn_app/               # Django app for processing CPN files
